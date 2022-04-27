@@ -9,7 +9,7 @@
 ```
 
 ## Here is a test photo for New York data
-![Testing New York Data](testingnewyork.png | width=100)
+![Testing New York Data](testingnewyork.png)
 
 ## Welcome to GitHub Pages
 
