@@ -6,6 +6,8 @@
 @@ text in purple (and bold)@@
 ```
 
+## Here is a test photo
+![Testing New York Data](testingnewyork.png)
 
 ## Welcome to GitHub Pages
 
