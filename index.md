@@ -10,6 +10,18 @@ In the preceding sections we will explore how water consumption has changed as t
 
 > *Why New York?*
 > New York City has one of the largest surface water supply systems in the US. It is also committed to providing high quality drinking water to residents and visitors. As an example between the years 2015 and 2025, New York aims to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration
+
+Data was collected from ... 
+
+
+# Water Consumption in the City of New York
+
+
+## Multifamily Housing
+
+
+
+## Has COVID19 had an impact on water consumption?
   
 
 
