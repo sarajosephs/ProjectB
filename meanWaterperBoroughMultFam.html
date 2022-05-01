@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="707e4067-3d8d-4117-a997-71a200792693" data-root-id="2291"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2570">
+          {"1fdb99bc-2faf-4d6d-acbc-a75e6c0b148a":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"2301"}],"center":[{"id":"2303"},{"id":"2307"}],"height":550,"left":[{"id":"2304"}],"renderers":[{"id":"2314"}],"title":{"id":"2292"},"toolbar":{"id":"2308"},"toolbar_location":null,"width":700,"x_range":{"id":"2290"},"x_scale":{"id":"2297"},"y_range":{"id":"2295"},"y_scale":{"id":"2299"}},"id":"2291","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"2401","type":"BasicTickFormatter"},{"attributes":{},"id":"2402","type":"AllLabels"},{"attributes":{"data":{"counts":[12176.452901353967,13965.85111317254,8597.985072293865,6789.773344103392,8828.75662610983,7008.015957446809,8497.424486148348,9633.908616600791,7514.593436960276,6207.011413267408,6591.020306181398,5353.396746470227,11472.457870894677,13128.415432098765,8254.359417902251,5696.850986500519,7192.672009512486,5396.529531667071,19926.828525641027,18547.97453294002,12536.01052631579,9954.930999213218,9428.504360607545,10637.237308868502,6101.326086956522,8268.76923076923,12365.009523809524,7925.877631578946,6486.963440860215,8024.563636363636],"x":[["BRONX","2015"],["BRONX","2016"],["BRONX","2017"],["BRONX","2018"],["BRONX","2019"],["BRONX","2020"],["BROOKLYN","2015"],["BROOKLYN","2016"],["BROOKLYN","2017"],["BROOKLYN","2018"],["BROOKLYN","2019"],["BROOKLYN","2020"],["MANHATTAN","2015"],["MANHATTAN","2016"],["MANHATTAN","2017"],["MANHATTAN","2018"],["MANHATTAN","2019"],["MANHATTAN","2020"],["STATEN IS","2015"],["STATEN IS","2016"],["STATEN IS","2017"],["STATEN IS","2018"],["STATEN IS","2019"],["STATEN IS","2020"],["QUEENS","2015"],["QUEENS","2016"],["QUEENS","2017"],["QUEENS","2018"],["QUEENS","2019"],["QUEENS","2020"]]},"selected":{"id":"2407"},"selection_policy":{"id":"2406"}},"id":"2289","type":"ColumnDataSource"},{"attributes":{},"id":"2404","type":"CategoricalTickFormatter"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"2309"}},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"2311","type":"VBar"},{"attributes":{"coordinates":null,"data_source":{"id":"2289"},"glyph":{"id":"2311"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"2313"},"nonselection_glyph":{"id":"2312"},"view":{"id":"2315"}},"id":"2314","type":"GlyphRenderer"},{"attributes":{},"id":"2405","type":"AllLabels"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"x","transform":{"id":"2309"}},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"2312","type":"VBar"},{"attributes":{},"id":"2406","type":"UnionRenderers"},{"attributes":{},"id":"2407","type":"Selection"},{"attributes":{"factors":[["BRONX","2015"],["BRONX","2016"],["BRONX","2017"],["BRONX","2018"],["BRONX","2019"],["BRONX","2020"],["BROOKLYN","2015"],["BROOKLYN","2016"],["BROOKLYN","2017"],["BROOKLYN","2018"],["BROOKLYN","2019"],["BROOKLYN","2020"],["MANHATTAN","2015"],["MANHATTAN","2016"],["MANHATTAN","2017"],["MANHATTAN","2018"],["MANHATTAN","2019"],["MANHATTAN","2020"],["STATEN IS","2015"],["STATEN IS","2016"],["STATEN IS","2017"],["STATEN IS","2018"],["STATEN IS","2019"],["STATEN IS","2020"],["QUEENS","2015"],["QUEENS","2016"],["QUEENS","2017"],["QUEENS","2018"],["QUEENS","2019"],["QUEENS","2020"]],"range_padding":0.1},"id":"2290","type":"FactorRange"},{"attributes":{"end":2,"factors":["2015","2016","2017","2018","2019","2020"],"palette":["#3CE7D7","#3CCAE7","#3CA9E7","#7674F6","#A48ED9","#6A2FFC"],"start":1},"id":"2309","type":"CategoricalColorMapper"},{"attributes":{"start":0},"id":"2295","type":"DataRange1d"},{"attributes":{"callback":null,"tooltips":[["Mean","@counts"]]},"id":"2316","type":"HoverTool"},{"attributes":{"axis_label":"Water Use (All Water Sources) (kgal)","coordinates":null,"formatter":{"id":"2401"},"group":null,"major_label_policy":{"id":"2402"},"ticker":{"id":"2305"}},"id":"2304","type":"LinearAxis"},{"attributes":{"coordinates":null,"group":null,"text":"Mean Water Consumption in each Borough per year (Multifamily Housing)"},"id":"2292","type":"Title"},{"attributes":{"coordinates":null,"formatter":{"id":"2404"},"group":null,"major_label_orientation":1,"major_label_policy":{"id":"2405"},"ticker":{"id":"2302"}},"id":"2301","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"2304"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"2307","type":"Grid"},{"attributes":{"axis":{"id":"2301"},"coordinates":null,"grid_line_color":null,"group":null,"ticker":null},"id":"2303","type":"Grid"},{"attributes":{},"id":"2299","type":"LinearScale"},{"attributes":{},"id":"2297","type":"CategoricalScale"},{"attributes":{},"id":"2302","type":"CategoricalTicker"},{"attributes":{"tools":[{"id":"2316"}]},"id":"2308","type":"Toolbar"},{"attributes":{},"id":"2305","type":"BasicTicker"},{"attributes":{"source":{"id":"2289"}},"id":"2315","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"x","transform":{"id":"2309"}},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"2313","type":"VBar"}],"root_ids":["2291"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('2570').textContent;
+                  const render_items = [{"docid":"1fdb99bc-2faf-4d6d-acbc-a75e6c0b148a","root_ids":["2291"],"roots":{"2291":"707e4067-3d8d-4117-a997-71a200792693"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
