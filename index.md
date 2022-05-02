@@ -19,6 +19,15 @@ Data was collected from ...
 
 ## Multifamily Housing
 
+<iframe src="meanWaterperBoroughMultFam.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
 ![Mean Water Consumption per Borough in Multifamily Housing](/meanWaterperBoroughMultFam.html)
 
 ## Has COVID19 had an impact on water consumption?
