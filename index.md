@@ -19,7 +19,7 @@ Data was collected from ...
 
 ## Multifamily Housing
 
-![Mean Water Consumption per Borough in Multifamily Housing](meanWaterperBoroughMultFam.html)
+![Mean Water Consumption per Borough in Multifamily Housing](/meanWaterperBoroughMultFam.html)
 
 ## Has COVID19 had an impact on water consumption?
   
