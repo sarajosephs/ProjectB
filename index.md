@@ -43,7 +43,7 @@ Aníta
 
 <iframe src="MedianWaterperBoroughMultFam.html"
     sandbox="allow-same-origin allow-scripts"
-    width="80%"
+    width="100%"
     height="600"
     scrolling="no"
     seamless="seamless"
