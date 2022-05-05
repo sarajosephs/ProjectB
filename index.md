@@ -58,8 +58,8 @@ Local Law 84 requires owners of large residential and commercial buildings in th
 
 <iframe src="MedianWaterperBoroughMultFam.html"
     sandbox="allow-same-origin allow-scripts"
-    width="110%"
-    height="600"
+    width="120%"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
