@@ -15,7 +15,6 @@ New York City has one of the largest surface water supply systems in the US. It 
 
 Data was collected from ... 
 
-Aníta
 
 # Water Consumption in the City of New York
 
@@ -56,7 +55,6 @@ We wanted to investigate if there is a linear decline in water consumption as ca
 ## Multifamily Housing
 
 Local Law 84 requires owners of large residential and commercial buildings in the five boroughs of New York to submit annual energy and water consumption reports to the City [Reference](https://www.wegowise.com/compliance/new-york-city-local-law-84). Looking into multifamily housing between the years 2015 to 2020 we notice the decreasing trend in water consumption in the boroughs in the figure below. Notice that between the years 2019 and 2020 there was a sudden increase in water consumption during the Covid-19 pandemic in some boroughs. This makes sense as people were staying more indoors at home and statistical tests showed that our observations are significant for Bronx and Queens which means the increase is unlikely due to chance. Covid-19 definitely had an impact! The increase was also quite high compared to other changes throughout the years. 
-
 
 
 <iframe src="MedianWaterperBoroughMultFam.html"
