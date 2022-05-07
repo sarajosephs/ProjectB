@@ -76,7 +76,7 @@ Could the reasoning for decreased water consumption of new york be because water
 
 ## Water Quality
 
-Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the end point of the city’s distribution system, just before it enters the local service line that connects to buildings. [Reference](https://www1.nyc.gov/site/dep/water/water-monitoring.page)
+New York’s drinking water is considered safe to drink. However, to be on the safe side using a water filter is recommended. New York actually has one of the cleanest drinking water in the US [Reference](https://tappwater.co/us/can-you-drink-nyc-tap-water/). Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the end point of the city’s distribution system, just before it enters the local service line that connects to buildings. [Reference](https://www1.nyc.gov/site/dep/water/water-monitoring.page)
 
 The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to present day. The sampling can bee seen on the geo-map below:
 
@@ -167,7 +167,7 @@ We can see that the most bad samples were detected in 2015. In 2020 it seems to 
 
 ## Water complaints
 
-We will explore the number of water complaints per year and borough. 
+We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” and ect. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people for each borough. From the heat map of bad samples we could see that most bad samples were detected around the Bronx, Manhattan and Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. For both the Bronx and Manhattan, the complaints peak in 2021. From our heatmap movie and our bar plots we saw that the most bad samples were in 2015 but the fewest complaints are in 2015 for most boroughs. 
 
 
 <iframe src="Complaints.html"
@@ -178,9 +178,4 @@ We will explore the number of water complaints per year and borough.
     seamless="seamless"
     frameborder="0">
 </iframe>
-
-
-From our previous analysis of bad samples we could see that most bad samples were detected around the Bronx borough and also Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. 
-
-
 
