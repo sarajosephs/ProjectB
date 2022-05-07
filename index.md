@@ -53,7 +53,7 @@ New York City is composed of five boroughs Bronx, Brooklyn, Manhattan, Queens, a
 
 From the map we can see the population density in New York City, Lighter color representing areas of low population density and darker color representing areas of high population density. On the map we see that the highest population density is in Manhattan, more spesifically in the Upper East Side of Manhattan
 
-<iframe src=""pop_dens.html".html"
+<iframe src="dens.html"
     sandbox="allow-same-origin allow-scripts"
     width="120%"
     height="700"
