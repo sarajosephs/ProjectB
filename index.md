@@ -18,11 +18,10 @@ Data was collected from ...
 
 # Water Consumption in the City of New York
 
-We began by investigating basic aspects of water consumption in New York. 
+We began by investigating basic aspects of water consumption in New York. Over the years 1980-2021 we notice a downwards trend for water consumption although the population increases. How may this be? We will do further analysis of various NYC data, exploring the water consumption of different boroughs and relate that with social aspects such as income and race. We will also look further into the quality of water and water rates to see if that might be one of the reasons for the decrease in water consumption. 
+
 
 ![Water Consumption and Population Growth per year](comsumption.png "WC")
-
-The figure above is interesting. Over the years 1980-2021 we notice a downwards trend for water consumption although the population increases. How may this be? We will do further analysis of various NYC data, exploring the water consumption of different boroughs and relate that with social aspects such as income and race. We will also look further into the quality of water and water rates to see if that might be one of the reasons for the decrease in water consumption. 
 
 ## Is there a linear trend between water consumption and population growth? Is there a trend between the years?
 
