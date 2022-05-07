@@ -67,6 +67,20 @@ Local Law 84 requires owners of large residential and commercial buildings in th
     frameborder="0">
 </iframe>
 
+## New York City Demographics
+
+New York City is composed of five boroughs Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. For this reason, we will compare statistics between boroughs of New York City in the data analysis.
+
+<iframe src="Borough.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="120%"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+
  
 ## Water Rates
 Could the reasoning for decreased water consumption of new york be because water cost increased? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year also. But has it increased at a more rapid rate than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned Linear Regression, seem to be very equal. We can obtain the slope coefficient $\beta_1$, which can be interpreted as: $y=\beta_1 x + \beta_0$ ($\beta_0 being the intercept$)to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
