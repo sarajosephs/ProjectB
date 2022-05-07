@@ -20,7 +20,7 @@ Data was collected from ...
 
 We began by investigating basic aspects of water consumption in New York. 
 
-![Water Consumption and Population Growth per year](Water_Consumption.png "Bla")
+![Water Consumption and Population Growth per year](Water_Consumption.png "WC")
 
 The figure above is interesting. Over the years 1980-2021 we notice a downwards trend for water consumption although the population increases. How may this be? We will do further analysis of various NYC data, exploring the water consumption of different boroughs and relate that with social aspects such as income and race. We will also look further into the quality of water and water rates to see if that might be one of the reasons for the decrease in water consumption. 
 
@@ -76,7 +76,11 @@ Local Law 84 requires owners of large residential and commercial buildings in th
  
  
 ## Water rates
+Let’s look at how water rates have increased throughout the years. 
 
+![Water Rates and Inflation](waterrates.png "waterrate")
+
+We see an upwards trend for the water rates but this could be in accordance to dollar inflation. Looking at the inflation graph we see an upwards trend also. To compare the two slopes both data had to be standardized to have a mean=0 and variance=1. Using sklearn’s Linear Regression we could see that the slope for the water rates is 0.9984 and for inflation is 0.9443. This tells us that water rates increase at a slightly higher rate than inflation, with a difference of 0.0540. 
 
 ## Water quality
 
