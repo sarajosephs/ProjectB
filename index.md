@@ -107,15 +107,15 @@ The water quality dataset contains 112,463 samples which are monthly samples obt
 
 The following parameters are tested and their recommended values from World Health Organization and EPA are the following:
 
-- Residual Free Chlorine (mg/L) - The maximum allowable WHO value for free chlorine residual in drinking water is 5 mg/L.
+- ´Residual Free Chlorine (mg/L)´ - The maximum allowable WHO value for free chlorine residual in drinking water is 5 mg/L.
 
-- Turbidity (NTU) - The US Environmental Protection Agency sets the maximum level of turbidity in finished drinking water at 1 NTU
+- ´Turbidity (NTU)´ - The US Environmental Protection Agency sets the maximum level of turbidity in finished drinking water at 1 NTU
 
-- Fluoride (mg/L) - The US Environmental Protection Agency (EPA) has set a maximum amount of fluoride allowable in drinking water of 4.0 mg/L
+- ´Fluoride (mg/L)´ - The US Environmental Protection Agency (EPA) has set a maximum amount of fluoride allowable in drinking water of 4.0 mg/L
 
-- Coliform (Quanti-Tray) (MPN /100mL) - No sample should contain more than 10 coliform organisms per 100 ml
+- ´Coliform (Quanti-Tray) (MPN /100mL)´ - No sample should contain more than 10 coliform organisms per 100 ml
 
-- E.coli(Quanti-Tray) (MPN/100mL) - E. coli levels at designated swimming beaches should not exceed 88 per 100 milliliter (mL) in any one sample, or exceed a three-sample geometric mean average over a 60-day period of 47/100 mL
+- ´E.coli(Quanti-Tray) (MPN/100mL) - E. coli levels at designated swimming beaches should not exceed 88 per 100 milliliter (mL) in any one sample, or exceed a three-sample geometric mean average over a 60-day period of 47/100 mL
 
 [Reference](https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data)
 
