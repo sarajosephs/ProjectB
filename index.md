@@ -94,7 +94,7 @@ Each month, New York’s water quality scientists collect more than 1,300 water 
 The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to present day. The sampling can bee seen on the geo-map below:
 
 
-<iframe src="samplingsites.html"
+<iframe src="samplingsites2.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="600"
@@ -153,7 +153,7 @@ As for turbidity the number of bad samples peak in 2015, but also in 2021. From 
 
 But where are bad samples most often detected? Let's look at the spatial patterns of the bad samples. The heatmap shows where most of the bad samples (where turbidity>1 or when coliform>=10) are detected.
 
-<iframe src="heatmap_badsamples.html"
+<iframe src="heatmapbad.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="600"
