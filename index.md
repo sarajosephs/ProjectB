@@ -70,11 +70,9 @@ Local Law 84 requires owners of large residential and commercial buildings in th
 
  
 ## Water Rates
-Let’s look at how water rates have increased throughout the years. 
+Could the reasoning for decreased water consumption of new york be because water cost increased? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year also. But has it increased at a more rapid rate than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned Linear Regression, seem to be very equal. We can obtain the slope coefficient: y=beta*x to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
 
 ![Water Rates and Inflation](waterrates2.png "waterrate")
-
-We see an upwards trend for the water rates but this could be in accordance to dollar inflation. Looking at the inflation graph we see an upwards trend also. To compare the two slopes both data had to be standardized to have a mean=0 and variance=1. Using sklearn’s Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
 
 ## Water Quality
 
