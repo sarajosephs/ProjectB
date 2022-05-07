@@ -17,8 +17,11 @@ Data was collected from ...
 
 
 # Water Consumption in the City of New York
-With the growing world population there is an increased need for better water supply and good water supply systems. This is why we are interested in looking at the water supply system in New York city. The New York City Water Supply System provides one billion gallons of safe drinking water to New York City’s 8.5 million residents every day [Reference](https://www1.nyc.gov/site/dep/water/water-supply.page). 
+
+We began by investigating basic aspects of water consumption in New York. 
+
 ![Water Consumption and Population Growth per year](Water_Consumption.png "Bla")
+
 The figure above is interesting. Over the years 1980-2021 we notice a downwards trend for water consumption although the population increases. How may this be? We will do further analysis of various NYC data, exploring the water consumption of different boroughs and relate that with social aspects such as income and race. We will also look further into the quality of water and water rates to see if that might be one of the reasons for the decrease in water consumption. 
 
 ## Is there a linear trend between water consumption and population growth? Is there a trend between the years?
