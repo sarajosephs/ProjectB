@@ -89,11 +89,6 @@ We see an upwards trend for the water rates but this could be in accordance to d
 
 ## Water quality
 
-Water quality:
-
-dataset: https://data.cityofnewyork.us/Environment/Drinking-Water-Quality-Distribution-Monitoring-Dat/bkwf-xfky
-
-
 Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the end point of the city’s distribution system, just before it enters the local service line that connects to buildings. [Reference](https://www1.nyc.gov/site/dep/water/water-monitoring.page)
 
 The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to present day. The sampling can bee seen on the geo-map below:
@@ -112,7 +107,7 @@ The water quality dataset contains 112,463 samples which are monthly samples obt
 
 The following parameters are tested and their recommended values from World Health Organization and EPA are the following:
 
- > Residual Free Chlorine (mg/L) - The maximum allowable WHO value for free chlorine residual in drinking water is 5 mg/L.
+> Residual Free Chlorine (mg/L) - The maximum allowable WHO value for free chlorine residual in drinking water is 5 mg/L.
 >Turbidity (NTU) - The US Environmental Protection Agency sets the maximum level of turbidity in finished drinking water at 1 NTU
 >Fluoride (mg/L) - The US Environmental Protection Agency (EPA) has set a maximum amount of fluoride allowable in drinking water of 4.0 mg/L
 >Coliform (Quanti-Tray) (MPN /100mL) - No sample should contain more than 10 coliform organisms per 100 ml
