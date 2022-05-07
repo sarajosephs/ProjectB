@@ -26,8 +26,9 @@ The figure above is interesting. Over the years 1980-2021 we notice a downwards 
 
 ## Is there a linear trend between water consumption and population growth? Is there a trend between the years?
 
-We wanted to investigate if there is a linear decline in water consumption as can be inferred from the graphs above. A machine learning strategy called *Linear Regression* was used to see if there is an association/correlation between population and the years and water consumption and the years. When referring to water, the unit *MGD* refers to millions of gallons per day. From the figure in tab 1 below it is evident that there is a linear decline in water consumption with coefficient of determination <img src="https://render.githubusercontent.com/render/math?math=R^2=0.898">. The coefficient being close to 1 means that there is a strong relation between water consumption and years which supports our assumption. Additionally, looking at the population growth (tab 2) it seems that there is a linear increase, although in general population growth is a common example of exponential growth, but that is in an ideal environment [Reference](https://www.britannica.com/science/population-ecology/Logistic-population-growth). The model had <img src="https://render.githubusercontent.com/render/math?math=R^2=0.96">, even better than the fit for the water consumption, which indicates that in New York the population growth is highly dependent on the years and is increasing at a fast rate! ?? of scientific?. Another interesting thing we noticed was that there is a strong relationship between the large increase in population and decrease in water consumption, see tab 3.
+Before we dive deeper into water in New York we wanted to investigate the associations between water consumption and population growth per year. To do that a machine learning strategy called *Linear Regression* was used to fit a line between our datapoints. When referring to water, the unit *MGD* refers to millions of gallons per day. From the figure in tab 1 below it is evident that there is a linear decline in water consumption with coefficient of determination <img src="https://render.githubusercontent.com/render/math?math=R^2=0.898">. The coefficient being close to 1 means that there is a strong relation between water consumption and years which supports our assumption. Additionally, looking at the population growth (tab 2) it seems that there is a linear increase, although in general population growth is a common example of exponential growth, but that is in an ideal environment [Reference](https://www.britannica.com/science/population-ecology/Logistic-population-growth). The model had <img src="https://render.githubusercontent.com/render/math?math=R^2=0.96">, even better than the fit for the water consumption, which indicates that in New York the population growth is highly dependent on the years and is increasing at a fast rate according to the figure! This will definitely be an issue in the futre as New York has the highest population density of any major city in the US [Ref](https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page). 
 
+Another interesting thing we noticed was that there is a strong relationship between the large increase in population and decrease in water consumption, see tab 3. This is suprising as a rise in population leads to higher demand for water. The decrease in water consumption could be due to other factors such as improvements in technology, i.e. water-efficient taps, toilets, showerheads, and appliances that can significantly reduce water usage [Ref](https://www.yourhome.gov.au/water/reducing-water-use).
 
 <iframe src="LinearFitWaterConsumption.html"
     sandbox="allow-same-origin allow-scripts"
@@ -38,17 +39,6 @@ We wanted to investigate if there is a linear decline in water consumption as ca
     frameborder="0">
 </iframe>
 
-
-
-# Geomap
-<iframe src="GeomapTest.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="600"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
 
 # Drinking Fountains position
 
@@ -62,10 +52,9 @@ We wanted to investigate if there is a linear decline in water consumption as ca
 </iframe>
 
 
-## Multifamily Housing
+## Multifamily Housing in the Boroughs
 
-Local Law 84 requires owners of large residential and commercial buildings in the five boroughs of New York to submit annual energy and water consumption reports to the City [Reference](https://www.wegowise.com/compliance/new-york-city-local-law-84). Looking into multifamily housing between the years 2015 to 2020 we notice the decreasing trend in water consumption in most of the boroughs in the figure below, except in Queens. Notice that between the years 2019 and 2020 there was a sudden increase in water consumption during the Covid-19 pandemic in some boroughs. This makes sense as people were staying more indoors at home and statistical tests showed that our observations are significant for Bronx and Queens which means the increase is unlikely due to chance. Covid-19 definitely had an impact! The increase was also quite high compared to other changes throughout the years. 
-
+Local Law 84 requires owners of large residential and commercial buildings in the five boroughs of New York to submit annual energy and water consumption reports to the city [Reference](https://www.wegowise.com/compliance/new-york-city-local-law-84). Looking into multifamily housing between the years 2015 to 2020 we notice the decreasing trend in water consumption in most of the boroughs in the figure below, except in Queens. Notice that between the years 2019 and 2020 there was a sudden increase in water consumption during the Covid-19 pandemic in some boroughs. This makes sense as people were staying more indoors at home and statistical tests showed that our observations are significant for Bronx and Queens which means the increase is unlikely due to chance. Covid-19 definitely had an impact! The increase was also quite high compared to other changes throughout the years. 
 
 <iframe src="MedianWaterperBoroughMultFam.html"
     sandbox="allow-same-origin allow-scripts"
@@ -76,18 +65,15 @@ Local Law 84 requires owners of large residential and commercial buildings in th
     frameborder="0">
 </iframe>
 
-
-## What about the impacts of Covid19?
  
- 
-## Water rates
+## Water Rates
 Let’s look at how water rates have increased throughout the years. 
 
 ![Water Rates and Inflation](waterrates2.png "waterrate")
 
 We see an upwards trend for the water rates but this could be in accordance to dollar inflation. Looking at the inflation graph we see an upwards trend also. To compare the two slopes both data had to be standardized to have a mean=0 and variance=1. Using sklearn’s Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
 
-## Water quality
+## Water Quality
 
 Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the end point of the city’s distribution system, just before it enters the local service line that connects to buildings. [Reference](https://www1.nyc.gov/site/dep/water/water-monitoring.page)
 
@@ -109,13 +95,13 @@ The following parameters are tested and their recommended values from World Heal
 
 - `Residual Free Chlorine (mg/L)` - The maximum allowable WHO value for free chlorine residual in drinking water is 5 mg/L.
 
-- `Turbidity (NTU)` - The US Environmental Protection Agency sets the maximum level of turbidity in finished drinking water at 1 NTU
+- `Turbidity (NTU)` - The US Environmental Protection Agency sets the maximum level of turbidity in finished drinking water at 1 NTU.
 
-- `Fluoride (mg/L)` - The US Environmental Protection Agency (EPA) has set a maximum amount of fluoride allowable in drinking water of 4.0 mg/L
+- `Fluoride (mg/L)` - The US Environmental Protection Agency (EPA) has set a maximum amount of fluoride allowable in drinking water of 4.0 mg/L.
 
-- `Coliform (Quanti-Tray) (MPN /100mL)` - No sample should contain more than 10 coliform organisms per 100 ml
+- `Coliform (Quanti-Tray) (MPN /100mL)` - No sample should contain more than 10 coliform organisms per 100 ml.
 
-- `E.coli(Quanti-Tray) (MPN/100mL)` - E. coli levels at designated swimming beaches should not exceed 88 per 100 milliliter (mL) in any one sample, or exceed a three-sample geometric mean average over a 60-day period of 47/100 mL
+- `E.coli(Quanti-Tray) (MPN/100mL)` - E. coli levels at designated swimming beaches should not exceed 88 per 100 milliliter (mL) in any one sample, or exceed a three-sample geometric mean average over a 60-day period of 47/100 mL.
 
 [Reference](https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data)
 
@@ -150,7 +136,7 @@ Now we'll look further into coliform. The number of bad coliform samples are muc
 
 As for turbidity the number of bad samples peak in 2015, but also in 2021. From the monthly distribution we can see the highest peaks seem to happen in the summer months, July and August. A reason for this might be because coliform can enter well water through garden hoes, which are likely more often used in the summertime. Too much coliform level can cause an upset stomach, vomiting, fever or diarrhea. [Reference](https://www.michigan.gov/documents/deq/deq-wd-gws-wcu-coliformbactiwellwatersampling_270604_7.pdf).
 
-We can also see this in a heatmap movie where the spatial pattern is pretty evenly distributed but but we can see that the bad samples peak during summer months.
+We can also see this in a heatmap movie where the spatial pattern is pretty evenly distributed but we can see that the bad samples peak during summer months.
 
 <iframe src="heatmapmovie.html"
     sandbox="allow-same-origin allow-scripts"
@@ -174,7 +160,7 @@ But where are bad samples most often detected? Let's look at the spatial pattern
     frameborder="0">
 </iframe>
 
-We can see that the most bad samples were detected in the Bronx borough and also in Staten Island.
+We can see that the highest number of bad samples were detected in the Bronx borough and also in Staten Island. 
 
 
 ## Water complaints
