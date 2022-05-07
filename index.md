@@ -136,18 +136,6 @@ Now we'll look further into coliform. The number of bad coliform samples are muc
 
 As for turbidity the number of bad samples peak in 2015, but also in 2021. From the monthly distribution we can see the highest peaks seem to happen in the summer months, July and August. A reason for this might be because coliform can enter well water through garden hoes, which are likely more often used in the summertime. Too much coliform level can cause an upset stomach, vomiting, fever or diarrhea. [Reference](https://www.michigan.gov/documents/deq/deq-wd-gws-wcu-coliformbactiwellwatersampling_270604_7.pdf).
 
-We can also see this in a heatmap movie where the spatial pattern is pretty evenly distributed but we can see that the bad samples peak during summer months.
-
-<iframe src="heatmapmovie.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="600"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
-
 
 But where are bad samples most often detected? Let's look at the spatial patterns of the bad samples. The heatmap shows where most of the bad samples (where turbidity>1 or when coliform>=10) are detected.
 
@@ -161,6 +149,21 @@ But where are bad samples most often detected? Let's look at the spatial pattern
 </iframe>
 
 We can see that the highest number of bad samples were detected in the Bronx borough and also in Staten Island. 
+
+Now lets look at spatial patterns of the bad samples per year: 
+
+
+<iframe src="movie.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="600"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+We can see that the most bad samples were detected in 2015. In 2020 it seems to be less. Could this relate to Covid19?
+
 
 
 ## Water complaints
