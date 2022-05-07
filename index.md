@@ -62,6 +62,9 @@ From the map we can see the population density in New York City, Lighter color r
     frameborder="0">
 </iframe>
 
+Now let’s see the difference of people's incomes per borough. One observation in the dataset contains information per borough-block-bot (BBL) which identifies the location of buildings or properties. The dataset contained information about income per capita in each block and from this we could calculate the mean income per capita. It seems that the Bronx, Brooklyn, Queens and Staten Island have similar incomes whereas the people from Manhattan have considerably more income.
+
+![NYC income](income.png "income")
 
 # Drinking Fountains positions
 
@@ -190,7 +193,7 @@ We can see that the most bad samples were detected in 2015. In 2020 it seems to 
 
 ## Water complaints
 
-We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” and ect. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people for each borough. From the heat map of bad samples we could see that most bad samples were detected around the Bronx, Manhattan and Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. For both the Bronx and Manhattan, the complaints peak in 2021. From our heatmap movie and our bar plots we saw that the most bad samples were in 2015 but the fewest complaints are in 2015 for most boroughs. 
+We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” and ect. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people for each borough. From the heat map of bad samples we could see that most bad samples were detected around the Bronx, Manhattan and Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. For both the Bronx and Manhattan, the complaints peak in 2021. From our heatmap movie and our bar plots we saw that the most bad samples were in 2015 but the fewest complaints are in 2015 for most boroughs. We already saw that the people of Manhattan have the most income out of the five boroughs. Analysis about consumer behavior states that consumers with more income tend to complain more often [Reference](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
 
 
 <iframe src="Complaints.html"
