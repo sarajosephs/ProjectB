@@ -121,10 +121,10 @@ The amount of bad samples (samples which exceed the maximum value) were counted.
 We will look further into instances where turbidity>1. The dataset contains 7689 samples with turbidity over the allowed limit. From the graph it can be seen that turbidity instances seem to have been unusually high in 2015.
 
 
-![Turbidity per year](turbidity_year1.png) 
+![Turbidity per year](turb2year.png) 
 
 
-When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [Reference](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [Reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). 
+When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [Reference](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [Reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). Although we did not contain water quality data from 1980-2015, these numbers show us that the quality of water in NYC is not the best and can cause diseases. The risk of getting a gastrointestinal disease can be enaugh to make people vary of drinking tap water
 
 
 ![Turbidity per month](turbiditymonth11.png) 
