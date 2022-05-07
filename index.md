@@ -181,7 +181,16 @@ We can see that the most bad samples were detected in the Bronx borough and also
 
 We will explore the number of water complaints per year and borough. 
 
-![compl](Complaints.html)
+
+<iframe src="Complaints.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="600"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
 
 From our previous analysis of bad samples we could see that most bad samples were detected around the Bronx borough and also Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. 
 
