@@ -40,7 +40,9 @@ Another interesting thing we noticed was that there is a strong relationship bet
 </iframe>
 
 
-# Drinking Fountains position
+# Drinking Fountains positions
+
+As previously stated, one of NYC goals was to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration. Out of curiosity we plotted the location of new york’s water fountains. 
 
 <iframe src="test.html"
     sandbox="allow-same-origin allow-scripts"
@@ -51,6 +53,7 @@ Another interesting thing we noticed was that there is a strong relationship bet
     frameborder="0">
 </iframe>
 
+From the plot we can see that the fountains are very evenly distributed. Most of them seem to lie by the sea and in public parks. This seems reasonable as those places tend to be popular areas for running.
 
 ## Multifamily Housing in the Boroughs
 
