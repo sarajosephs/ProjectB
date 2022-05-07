@@ -85,7 +85,7 @@ Let’s look at how water rates have increased throughout the years.
 
 ![Water Rates and Inflation](waterrates2.png "waterrate")
 
-We see an upwards trend for the water rates but this could be in accordance to dollar inflation. Looking at the inflation graph we see an upwards trend also. To compare the two slopes both data had to be standardized to have a mean=0 and variance=1. Using sklearn’s Linear Regression we could see that the slope for the water rates is 0.9984 and for inflation is 0.9443. This tells us that water rates increase at a slightly higher rate than inflation, with a difference of 0.0540. 
+We see an upwards trend for the water rates but this could be in accordance to dollar inflation. Looking at the inflation graph we see an upwards trend also. To compare the two slopes both data had to be standardized to have a mean=0 and variance=1. Using sklearn’s Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
 
 ## Water quality
 
@@ -178,5 +178,12 @@ We can see that the most bad samples were detected in the Bronx borough and also
 
 
 ## Water complaints
+
+We will explore the number of water complaints per year and borough. 
+
+![compl](Complaints.png)
+
+From our previous analysis of bad samples we could see that most bad samples were detected around the Bronx borough and also Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. 
+
 
 
