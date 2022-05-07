@@ -38,6 +38,30 @@ Another interesting thing we noticed was that there is a strong relationship bet
     frameborder="0">
 </iframe>
 
+## New York City Demographics
+
+New York City is composed of five boroughs Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. For this reason, we will compare statistics between boroughs of New York City in the data analysis.
+
+<iframe src="Borough.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="120%"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+From the map we can see the population density in New York City, Lighter color representing areas of low population density and darker color representing areas of high population density. On the map we see that the highest population density is in Manhattan, more spesifically in the Upper East Side of Manhattan
+
+<iframe src=""Population_Density.html".html"
+    sandbox="allow-same-origin allow-scripts"
+    width="120%"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
 
 # Drinking Fountains positions
 
@@ -66,20 +90,6 @@ Local Law 84 requires owners of large residential and commercial buildings in th
     seamless="seamless"
     frameborder="0">
 </iframe>
-
-## New York City Demographics
-
-New York City is composed of five boroughs Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. For this reason, we will compare statistics between boroughs of New York City in the data analysis.
-
-<iframe src="Borough.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="120%"
-    height="700"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
 
  
 ## Water Rates
