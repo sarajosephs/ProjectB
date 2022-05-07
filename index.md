@@ -89,6 +89,39 @@ We see an upwards trend for the water rates but this could be in accordance to d
 
 ## Water quality
 
+Water quality:
+
+dataset: https://data.cityofnewyork.us/Environment/Drinking-Water-Quality-Distribution-Monitoring-Dat/bkwf-xfky
+
+
+Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the end point of the city’s distribution system, just before it enters the local service line that connects to buildings. [Reference](https://www1.nyc.gov/site/dep/water/water-monitoring.page)
+
+The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to present day. The sampling can bee seen on the geo-map below:
+
+
+<iframe src="samplingsites.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="600"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+
+
+The following parameters are tested and their recommended values from World Health Organization and EPA are the following:
+
+ > Residual Free Chlorine (mg/L) - The maximum allowable WHO value for free chlorine residual in drinking water is 5 mg/L.
+>Turbidity (NTU) - The US Environmental Protection Agency sets the maximum level of turbidity in finished drinking water at 1 NTU
+>Fluoride (mg/L) - The US Environmental Protection Agency (EPA) has set a maximum amount of fluoride allowable in drinking water of 4.0 mg/L
+>Coliform (Quanti-Tray) (MPN /100mL) - No sample should contain more than 10 coliform organisms per 100 ml
+>E.coli(Quanti-Tray) (MPN/100mL) - E. coli levels at designated swimming beaches should not exceed 88 per 100 milliliter (mL) in any one sample, or exceed a three-sample geometric mean average over a 60-day period of 47/100 mL
+
+[Reference](https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data)
+
+The amount of bad samples (samples which exceed the maximum value) were counted. The results were the following: 
+
 | Chemical | Number of bad samples |
 | ------------- | ------------- |
 | Residual Free Chlorine   | 0 |
@@ -96,6 +129,42 @@ We see an upwards trend for the water rates but this could be in accordance to d
 | Fluoride   | 0 |
 | Coliform   | 138|
 | E.coli   | 0|
+
+
+
+We will look further into instances where turbidity>1. The dataset contains 7689 samples with turbidity over the allowed limit. From the graph it can be seen that turbidity instances seem to have been unusually high in 2015.
+
+
+![Turbidity per year](turbidity_year1.png) 
+
+
+When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [Reference](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [Reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). 
+
+
+![Turbidity per month](turbiditymonth.png) 
+
+
+Now we'll look further into coliform. The number of bad coliform samples are much rarer than of turbidity, having 138 bad samples in the dataset. 
+
+![Coli per year](colimonthyear.png)
+
+
+As for turbidity the number of bad samples peak in 2015, but also in 2021. From the monthly distribution we can see the highest peaks seem to happen in the summer months, July and August. A reason for this might be because coliform can enter well water through garden hoes, which are likely more often used in the summertime. Too much coliform level can cause an upset stomach, vomiting, fever or diarrhea. [Reference](https://www.michigan.gov/documents/deq/deq-wd-gws-wcu-coliformbactiwellwatersampling_270604_7.pdf).
+
+
+But where are bad samples most often detected? Let's look at the spatial patterns of the bad samples. The heatmap shows where most of the bad samples (where turbidity>1 or when coliform>=10) are detected.
+
+<iframe src="heatmap_badsamples.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="600"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+We can see that the most bad samples were detected in the Bronx borough and also in Staten Island.
+
 
 ## Water complaints
 
