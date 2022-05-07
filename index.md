@@ -84,7 +84,13 @@ We see an upwards trend for the water rates but this could be in accordance to d
 
 ## Water quality
 
-
+| Chemical | Number of bad samples |
+| ------------- | ------------- |
+| Residual Free Chlorine   | 0 |
+| Turbidity  | 7689  |
+| Fluoride   | 0 |
+| Coliform   | 138|
+| E.coli   | 0|
 
 ## Water complaints
 
