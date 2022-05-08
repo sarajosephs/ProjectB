@@ -214,22 +214,36 @@ After doing some online research it was found that the real reason behind NYC's 
 
 
 [1]	Y. Gorokhovich and V. Goldsmith, “Water supply management of the New York Metropolitan area and future challenges from population growth and global climate change,” IAHS-AISH Publ., vol. 327, Nov. 2008.
-[2] Henkel, “Saving water and tackling climate change.”  [Online]. Available: https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204. [Accessed: May 08, 2022]
-[3]	“Water Fountain and Bottle Refill Stations · NYC311.”  [Online]. Available: https://portal.311.nyc.gov/article/?kanumber=KA-03088. [Accessed: May 07, 2022]
-[4]	“My Woodlot - Care for and enjoy your woods.”  [Online]. Available: https://mywoodlot.com/. [Accessed: May 08, 2022]
-[5]	“New York City Local Law 84 - LL84 Compliance | WegoWise.”  [Online]. Available: https://www.wegowise.com/compliance/new-york-city-local-law-84. [Accessed: May 08, 2022]
-[6]	“Interpret Logistic Regression Coefficients [For Beginners] – Quantifying Health.”  [Online]. Available: https://quantifyinghealth.com/interpret-logistic-regression-coefficients/. [Accessed: May 04, 2022]
-[7]	“Planning-Population-NYC Population Facts - DCP.”  [Online]. Available: https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page. [Accessed: May 07, 2022]
-[8]	“Reducing water use | YourHome.”  [Online]. Available: https://www.yourhome.gov.au/water/reducing-water-use. [Accessed: May 07, 2022]
-[9] 	“Can you drink NYC tap water?,” USA, Feb. 07, 2020.  [Online]. Available: https://tappwater.co/us/can-you-drink-nyc-tap-water/. [Accessed: May 08, 2022]
 
-[10]	“Water Monitoring - DEP.”  [Online]. Available: https://www1.nyc.gov/site/dep/water/water-monitoring.page. [Accessed: May 07, 2022]
-[11]	“Evaluating drinking water quality of New York city | Kaggle.”  [Online]. Available: https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data. [Accessed: May 07, 2022]
-[12]	J. Martin, “Let’s Talk Turbidity in Water.”  [Online]. Available: https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water. [Accessed: May 07, 2022]
+[2] Henkel, “Saving water and tackling climate change.”  [Online]. Available: https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204. [Accessed: April 22, 2022].
+
+[3]	“Water Fountain and Bottle Refill Stations · NYC311.”  [Online]. Available: https://portal.311.nyc.gov/article/?kanumber=KA-03088. [Accessed: April 22, 2022].
+
+[4]	“My Woodlot - Care for and enjoy your woods.”  [Online]. Available: https://mywoodlot.com/. [Accessed: April 30, 2022].
+
+[5]	“New York City Local Law 84 - LL84 Compliance | WegoWise.”  [Online]. Available: https://www.wegowise.com/compliance/new-york-city-local-law-84. [Accessed: April 23, 2022].
+
+[6]	“Interpret Logistic Regression Coefficients [For Beginners] – Quantifying Health.”  [Online]. Available: https://quantifyinghealth.com/interpret-logistic-regression-coefficients/. [Accessed: May 01, 2022].
+
+[7]	“Planning-Population-NYC Population Facts - DCP.”  [Online]. Available: https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page. [Accessed: May 01, 2022].
+
+[8]	“Reducing water use | YourHome.”  [Online]. Available: https://www.yourhome.gov.au/water/reducing-water-use. [Accessed: May 01, 2022].
+
+[9] 	“Can you drink NYC tap water?,” USA, Feb. 07, 2020.  [Online]. Available: https://tappwater.co/us/can-you-drink-nyc-tap-water/. [Accessed: May 01, 2022],
+
+[10]	“Water Monitoring - DEP.”  [Online]. Available: https://www1.nyc.gov/site/dep/water/water-monitoring.page. [Accessed: May 07, 2022].
+
+[11]	“Evaluating drinking water quality of New York city | Kaggle.”  [Online]. Available: https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data. [Accessed: May 01, 2022].
+
+[12]	J. Martin, “Let’s Talk Turbidity in Water.”  [Online]. Available: https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water. [Accessed: May 04, 2022].
+
 [13]	J. L. Hsieh, T. Q. Nguyen, T. Matte, and K. Ito, “Drinking Water Turbidity and Emergency Department Visits for Gastrointestinal Illness in New York City, 2002-2009,” PLoS ONE, vol. 10, no. 4, p. e0125071, Apr. 2015, doi: 10.1371/journal.pone.0125071.
+
 [14]	“Coliform Bacteria in Drinking Water for Well Owners,” p. 2.
-[15]	M. A. Morganosky and H. M. Buckley, “Complaint Behavior: Analysis By Demographics, Lifestyle, and Consumer Values,” ACR North Am. Adv., vol. NA-14, 1987 [Online]. Available: https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14/full. [Accessed: May 08, 2022]
-[16]	H. Kates, “NYC’s Remarkable Decline in Water Consumption.”  [Online]. Available: http://www.hannahkates.com/nyc-water. [Accessed: May 08, 2022]
+
+[15]	M. A. Morganosky and H. M. Buckley, “Complaint Behavior: Analysis By Demographics, Lifestyle, and Consumer Values,” ACR North Am. Adv., vol. NA-14, 1987 [Online]. Available: https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14/full. [Accessed: May 02, 2022].
+
+[16]	H. Kates, “NYC’s Remarkable Decline in Water Consumption.”  [Online]. Available: http://www.hannahkates.com/nyc-water. [Accessed: May 02, 2022].
 
 
 
