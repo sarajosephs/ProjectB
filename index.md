@@ -8,12 +8,12 @@ In the preceding sections we will explore how water consumption has changed as t
 
 
 ## Why New York?
-New York City has one of the largest surface water supply systems in the US and has the highest population density of any major city in the US [[4]](https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page). It is also committed to providing high quality drinking water to residents and visitors. As an example between the years 2015 and 2025, New York aims to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration [[5]](https://portal.311.nyc.gov/article/?kanumber=KA-03088).
+New York city has one of the largest surface water supply systems in the US and has the highest population density of any major city in the US [[4]](https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page). It is also committed to providing high quality drinking water to residents and visitors. As an example between the years 2015 and 2025, New York aims to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration [[5]](https://portal.311.nyc.gov/article/?kanumber=KA-03088).
 
 
 # Water Consumption in New York City
 
-We began by investigating basic aspects of water consumption in New York. Over the years 1980-2021 we notice a downwards trend for water consumption although the population increases. How may this be? We will do further analysis of various NYC data, exploring the water consumption of different boroughs and relate that with social aspects such as income. We will also look further into the quality of water and water rates.
+We begin by investigating basic aspects of water consumption in New York. Over the years 1980-2021 we notice a downwards trend for water consumption although the population increases. How may this be? We will do further analysis of various NYC data, exploring the water consumption of different boroughs and relate that with social aspects such as income. We will also look further into the quality of water and water rates.
 
 
 ![Water Consumption and Population Growth per year](comsumption.png "WC")
@@ -32,10 +32,9 @@ Another interesting thing we noticed was that there is a strong relationship bet
     seamless="seamless"
     frameborder="0">
 </iframe>
-
 ## New York City Demographics
 
-New York city is composed of five boroughs, Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. We will compare statistics between boroughs of New York City with data analysis and visualizations.
+New York city is composed of five boroughs: Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. We will compare statistics between the boroughs of the city with data analysis and visualizations.
 
 <iframe src="Borough.html"
     sandbox="allow-same-origin allow-scripts"
@@ -91,13 +90,13 @@ Local Law 84 requires owners of large residential and commercial buildings in th
  
  
 ## Water Rates
-Could increased water rates be one of the reasons behind the decrease in water consumption in New York? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year as well. But does it increase more rapidly than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned *Linear Regression*, seem to be very equal. We can obtain the slope coefficient <img src="https://render.githubusercontent.com/render/math?math=\beta_1">, which can be interpreted as: <img src="https://render.githubusercontent.com/render/math?math=y=\beta_1x"> + <img src="https://render.githubusercontent.com/render/math?math=\beta_0"> (<img src="https://render.githubusercontent.com/render/math?math=\beta_0"> being the intercept) to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using *Linear Regression* we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that on average water rates have increases at a slightly lower rate than inflation, with a difference of 0.0540. 
+Could increased water rates be one of the reasons behind the decrease in water consumption in New York? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year as well. But does it increase more rapidly than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned *Linear Regression*, seem to be very equal. We can obtain the slope coefficient <img src="https://render.githubusercontent.com/render/math?math=\beta_1">, which can be interpreted as: <img src="https://render.githubusercontent.com/render/math?math=y=\beta_1x"> + <img src="https://render.githubusercontent.com/render/math?math=\beta_0"> (<img src="https://render.githubusercontent.com/render/math?math=\beta_0"> being the intercept) to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using *Linear Regression* we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that on average water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
 
 ![Water Rates and Inflation](waterrates2.png "waterrate")
 
 ## Water Quality
 
-New York’s drinking water is considered safe to drink. However, to be on the safe side using a water filter is recommended. New York actually has one of the cleanest drinking water in the US [[10]](https://tappwater.co/us/can-you-drink-nyc-tap-water/). New York’s water quality scientists collect water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the endpoint of the city’s distribution system, just before it enters the local service line that connects to buildings [[11]](https://www1.nyc.gov/site/dep/water/water-monitoring.page).
+New York’s drinking water is considered safe to drink. However, to be on the safe side using a water filter is recommended. New York actually has one of the cleanest drinking water in the US [[10]](https://tappwater.co/us/can-you-drink-nyc-tap-water/). It's water quality scientists collect water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the endpoint of the city’s distribution system, just before it enters the local service line that connects to buildings [[11]](https://www1.nyc.gov/site/dep/water/water-monitoring.page).
 
 The water quality dataset contains 112,463 samples which are daily samples obtained from New York’s sample sites over the years 2015 to the present day. The sampling sites can be seen on the geo-map below. The sampling sites are well distributed, having more sites where the population density is more.
 
@@ -184,7 +183,7 @@ Now let's look at spatial patterns of the bad samples per year. Looking at the d
 
 ## Water Complaints
 
-We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” etc. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people in each borough. From the heat map of bad samples we could see that most bad samples were detected in the Bronx borough. This is interesting as most water complaints come from Manhattan and one of the least complaints were from the Bronx. We already saw that the people of Manhattan have the highest income out of the five boroughs. Analysis about consumer behavior states that consumers with higher income tend to complain more often [[16]](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
+We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” etc. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people in each borough. From the heat map of bad samples we could see that most bad samples were detected in the Bronx borough. This is interesting as most water complaints come from Manhattan and one of the lowest number of complaints were from the Bronx. We already saw that the people of Manhattan have the highest income out of the five boroughs. Analysis about consumer behavior states that consumers with higher income tend to complain more often [[16]](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
 
 
 <iframe src="pop_complaints.html"
@@ -198,10 +197,9 @@ We will explore the number of water complaints per year and borough. The complai
 
 # Conclusion
 
-
 Now we’ve analyzed and discovered intriguing facts about water in New York. In summary, from our analysis we saw that there was a strong correlation between population size and water consumption. It became clear that an increase in water rates is likely not one of the causes of the decrease in water consumption in New York and we saw an increase in water consumption in most of the five boroughs during Covid-19! The highest number of bad water samples were in the Bronx which was an interesting result as the Bronx has the highest poverty rate out of all the boroughs. Surprisingly, people in Manhattan complain more frequently about their water than other boroughs, despite there being few bad water samples detected. An analysis from *ACR* on consumer behavior verified that this is a common behavior amongst consumers with higher income [[16]](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14/full). 
 
-After doing some online research it was found that the real reason behind NYC's decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the city has worked towards eliminating waste in the infrastructure that supplies water to buildings. NYC has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The City uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them [[17]](https://www.hannahkates.com/nyc-water/). It could also be that in modern times people have become increasingly aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [[2]](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
+After doing some online research it was found that the real reason behind NYC's decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the city has worked towards eliminating waste in the infrastructure that supplies water to buildings. New York has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The city uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them [[17]](https://www.hannahkates.com/nyc-water/). It could also be that in modern times people have become increasingly aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [[2]](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
 
 
 # References
