@@ -150,7 +150,7 @@ We will look further into instances where turbidity>1. The dataset contains 7689
 ![Turbidity per year](turb2year.png) 
 
 
-When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [Reference](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [Reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). Although we did not contain water quality data from 1980-2015, these numbers show us that the quality of water in NYC is not the best and can cause diseases. The risk of getting a gastrointestinal disease can be enaugh to make people vary of drinking tap water
+When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [Reference](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [Reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). Although we did not contain water quality data from 1980-2015, these numbers show us that the quality of water in NYC may not be the best and can cause diseases. The risk of getting a gastrointestinal disease can be enaugh to make people vary of drinking tap water.
 
 
 ![Turbidity per month](turbiditymonth11.png) 
@@ -193,7 +193,7 @@ We can see that the most bad samples were detected in 2015. In 2020 it seems to 
 
 ## Water complaints
 
-We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” and ect. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people for each borough. From the heat map of bad samples we could see that most bad samples were detected around the Bronx, Manhattan and Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. For both the Bronx and Manhattan, the complaints peak in 2021. From our heatmap movie and our bar plots we saw that the most bad samples were in 2015 but the fewest complaints are in 2015 for most boroughs. We already saw that the people of Manhattan have the most income out of the five boroughs. Analysis about consumer behavior states that consumers with more income tend to complain more often [Reference](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
+We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” etc. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people for each borough. From the heat map of bad samples we could see that most bad samples were detected around the Bronx, Manhattan and Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. For both the Bronx and Manhattan, the complaints peak in 2021. From our heatmap movie and our bar plots we saw that the most bad samples were in 2015 but the fewest complaints are in 2015 for most boroughs. We already saw that the people of Manhattan have the most income out of the five boroughs. Analysis about consumer behavior states that consumers with more income tend to complain more often [Reference](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
 
 
 <iframe src="Complaints.html"
@@ -205,3 +205,4 @@ We will explore the number of water complaints per year and borough. The complai
     frameborder="0">
 </iframe>
 
+## Conclusion
