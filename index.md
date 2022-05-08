@@ -79,7 +79,7 @@ As previously stated, one of NYC goals was to install or repair 500 water founta
 
 Local Law 84 requires owners of large residential and commercial buildings in the five boroughs of New York to submit annual energy and water consumption reports to the city [[8]](https://www.wegowise.com/compliance/new-york-city-local-law-84). Looking into multifamily housing between the years 2015 to 2020 we notice the decreasing trend in water consumption in most of the boroughs in the figure below, except in Queens. Notice that between the years 2019 and 2020 there was a sudden increase in water consumption during the Covid-19 pandemic in some boroughs. This makes sense as people were staying more indoors at home and statistical tests showed that our observations are significant for Bronx and Queens which means the increase is unlikely due to chance. Covid-19 definitely had an impact! The increase was also quite high compared to other changes throughout the years. Additionally, according to the statistics, the Bronx borough has the highest poverty rate in New York, around 30% [[9]](https://mycrains.crainsnewyork.com/stats-and-the-city/2013/bronx/the-poorest-borough/). One would assume that there would be a distinct difference in water consumption between the boroughs based on the poverty rate but that does not seem to be the case here.
 
-<iframe src="MedianWaterperBoroughMultFam.html"
+<iframe src="MedianWaterCons.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="700"
