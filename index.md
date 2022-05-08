@@ -144,7 +144,7 @@ We will look further into instances where turbidity>1. The dataset contains 7689
 ![Turbidity per year](turb2year.png) 
 
 
-When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [[13]](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [14](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). 
+When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [[13]](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [[14]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). 
 
 ![Turbidity per month](turbiditymonth11.png) 
 
