@@ -62,7 +62,7 @@ From the map we can see the population density in New York City, Lighter color r
     frameborder="0">
 </iframe>
 
-Now let’s see the difference of people's incomes per borough. One observation in the dataset contains information per borough-block-bot (BBL) which identifies the location of buildings or properties. The dataset contained information about income per capita in each block and from this we could calculate the mean income per capita. It seems that the Bronx, Brooklyn, Queens and Staten Island have similar incomes whereas the people from Manhattan have considerably more income.
+Now let’s analyse the difference of people's incomes per borough. The dataset contained information about income per capita in each borough-block-bot (BBL) and from this we could calculate the mean income per capita in each borough. It seems that the Bronx, Brooklyn, Queens and Staten Island have similar incomes whereas the people from Manhattan have considerably more income.
 
 ![NYC income](income.png "income")
 
