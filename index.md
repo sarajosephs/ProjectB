@@ -206,3 +206,11 @@ We will explore the number of water complaints per year and borough. The complai
 </iframe>
 
 ## Conclusion
+
+From our analysis we saw that....
+
+
+
+
+After doing some online research it was found that the real reason behind NYC decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the City has worked towards eliminating waste in the infrastructure that supplies water to buildings. NYC has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The City uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them. [Ref](https://www.hannahkates.com/nyc-water/) It could also be that in modern times people have become more and more aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [Ref](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
+
