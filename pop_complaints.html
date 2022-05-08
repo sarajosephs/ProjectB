@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="9438417c-625b-43b3-af48-05909e4d6144" data-root-id="3889"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="4094">
+          {"a995188e-438f-4534-8dfb-e364407dcd3a":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"3899"}],"center":[{"id":"3901"},{"id":"3905"}],"height":550,"left":[{"id":"3902"}],"renderers":[{"id":"3912"}],"title":{"id":"3890"},"toolbar":{"id":"3906"},"toolbar_location":null,"width":700,"x_range":{"id":"3888"},"x_scale":{"id":"3895"},"y_range":{"id":"3893"},"y_scale":{"id":"3897"}},"id":"3889","subtype":"Figure","type":"Plot"},{"attributes":{"factors":[["BRONX","2015"],["BRONX","2016"],["BRONX","2017"],["BRONX","2018"],["BRONX","2019"],["BRONX","2020"],["BRONX","2021"],["BROOKLYN","2015"],["BROOKLYN","2016"],["BROOKLYN","2017"],["BROOKLYN","2018"],["BROOKLYN","2019"],["BROOKLYN","2020"],["BROOKLYN","2021"],["MANHATTAN","2015"],["MANHATTAN","2016"],["MANHATTAN","2017"],["MANHATTAN","2018"],["MANHATTAN","2019"],["MANHATTAN","2020"],["MANHATTAN","2021"],["QUEENS","2015"],["QUEENS","2016"],["QUEENS","2017"],["QUEENS","2018"],["QUEENS","2019"],["QUEENS","2020"],["QUEENS","2021"],["STATEN ISLAND","2015"],["STATEN ISLAND","2016"],["STATEN ISLAND","2017"],["STATEN ISLAND","2018"],["STATEN ISLAND","2019"],["STATEN ISLAND","2020"],["STATEN ISLAND","2021"]],"range_padding":0.1},"id":"3888","type":"FactorRange"},{"attributes":{},"id":"3925","type":"BasicTickFormatter"},{"attributes":{"data":{"means":[7.027851633589157e-05,7.910932467129155e-05,7.248621841974157e-05,0.00011774411113866651,0.00012399926704290818,9.824274273132486e-05,0.0002042124427561247,6.841010489683555e-05,7.927523920398002e-05,9.959706448215764e-05,0.00010301756972699942,6.981854823294687e-05,7.545232157739215e-05,6.86113110877086e-05,9.381800204158218e-05,0.00011943383877648518,0.00012199542244997547,0.0002148528306139988,0.000283054995920678,0.00026960668163485395,0.0003858385408194762,6.636621009255172e-05,7.578303720027865e-05,7.398935584642589e-05,8.161250160030008e-05,6.0760955861761874e-05,6.3451477892541e-05,6.703884060024649e-05,0.00012055349396903748,0.00014137637020005304,0.00013041696165741327,0.00015452766045122076,9.973061773802192e-05,8.986715004964611e-05,7.123615552715851e-05],"x":[["BRONX","2015"],["BRONX","2016"],["BRONX","2017"],["BRONX","2018"],["BRONX","2019"],["BRONX","2020"],["BRONX","2021"],["BROOKLYN","2015"],["BROOKLYN","2016"],["BROOKLYN","2017"],["BROOKLYN","2018"],["BROOKLYN","2019"],["BROOKLYN","2020"],["BROOKLYN","2021"],["MANHATTAN","2015"],["MANHATTAN","2016"],["MANHATTAN","2017"],["MANHATTAN","2018"],["MANHATTAN","2019"],["MANHATTAN","2020"],["MANHATTAN","2021"],["QUEENS","2015"],["QUEENS","2016"],["QUEENS","2017"],["QUEENS","2018"],["QUEENS","2019"],["QUEENS","2020"],["QUEENS","2021"],["STATEN ISLAND","2015"],["STATEN ISLAND","2016"],["STATEN ISLAND","2017"],["STATEN ISLAND","2018"],["STATEN ISLAND","2019"],["STATEN ISLAND","2020"],["STATEN ISLAND","2021"]]},"selected":{"id":"3931"},"selection_policy":{"id":"3930"}},"id":"3887","type":"ColumnDataSource"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"3907"}},"line_color":{"value":"#1f77b4"},"top":{"field":"means"},"width":{"value":0.9},"x":{"field":"x"}},"id":"3909","type":"VBar"},{"attributes":{"start":0},"id":"3893","type":"DataRange1d"},{"attributes":{},"id":"3926","type":"AllLabels"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"x","transform":{"id":"3907"}},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"means"},"width":{"value":0.9},"x":{"field":"x"}},"id":"3910","type":"VBar"},{"attributes":{"coordinates":null,"data_source":{"id":"3887"},"glyph":{"id":"3909"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3911"},"nonselection_glyph":{"id":"3910"},"view":{"id":"3913"}},"id":"3912","type":"GlyphRenderer"},{"attributes":{},"id":"3928","type":"CategoricalTickFormatter"},{"attributes":{},"id":"3929","type":"AllLabels"},{"attributes":{"end":2,"factors":["2015","2016","2017","2018","2019","2020","2021"],"palette":["#3CE7D7","#3CCAE7","#3CA9E7","#7674F6","#A48ED9","#6A2FFC","#084594"],"start":1},"id":"3907","type":"CategoricalColorMapper"},{"attributes":{"axis":{"id":"3902"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"3905","type":"Grid"},{"attributes":{},"id":"3906","type":"Toolbar"},{"attributes":{"coordinates":null,"formatter":{"id":"3928"},"group":null,"major_label_orientation":1,"major_label_policy":{"id":"3929"},"ticker":{"id":"3900"}},"id":"3899","type":"CategoricalAxis"},{"attributes":{"axis_label":"No. Complaints/Borough Population","axis_label_text_font_size":"11pt","axis_label_text_font_style":"normal","coordinates":null,"formatter":{"id":"3925"},"group":null,"major_label_policy":{"id":"3926"},"ticker":{"id":"3903"}},"id":"3902","type":"LinearAxis"},{"attributes":{"coordinates":null,"group":null,"text":"Proportion of Complaints for each Borough per Year","text_font_size":"12pt"},"id":"3890","type":"Title"},{"attributes":{},"id":"3897","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"x","transform":{"id":"3907"}},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"top":{"field":"means"},"width":{"value":0.9},"x":{"field":"x"}},"id":"3911","type":"VBar"},{"attributes":{"axis":{"id":"3899"},"coordinates":null,"grid_line_color":null,"group":null,"ticker":null},"id":"3901","type":"Grid"},{"attributes":{},"id":"3903","type":"BasicTicker"},{"attributes":{},"id":"3930","type":"UnionRenderers"},{"attributes":{"source":{"id":"3887"}},"id":"3913","type":"CDSView"},{"attributes":{},"id":"3895","type":"CategoricalScale"},{"attributes":{},"id":"3931","type":"Selection"},{"attributes":{},"id":"3900","type":"CategoricalTicker"}],"root_ids":["3889"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('4094').textContent;
+                  const render_items = [{"docid":"a995188e-438f-4534-8dfb-e364407dcd3a","root_ids":["3889"],"roots":{"3889":"9438417c-625b-43b3-af48-05909e4d6144"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
