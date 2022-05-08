@@ -40,7 +40,7 @@ New York city is composed of five boroughs Bronx, Brooklyn, Manhattan, Queens, a
 <iframe src="Borough.html"
     sandbox="allow-same-origin allow-scripts"
     width="120%"
-    height="700"
+    height="600"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
