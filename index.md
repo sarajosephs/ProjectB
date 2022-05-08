@@ -91,7 +91,7 @@ Local Law 84 requires owners of large residential and commercial buildings in th
  
  
 ## Water Rates
-Could increased water rates be the reason behind the decrease in water consumption in New York? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year as well. But does it increase more rapidly than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned *Linear Regression*, seem to be very equal. We can obtain the slope coefficient <img src="https://render.githubusercontent.com/render/math?math=\beta_1">, which can be interpreted as: <img src="https://render.githubusercontent.com/render/math?math=y=\beta_1x"> + <img src="https://render.githubusercontent.com/render/math?math=\beta_0"> (<img src="https://render.githubusercontent.com/render/math?math=\beta_0"> being the intercept) to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
+Could increased water rates be one of the reasons behind the decrease in water consumption in New York? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year as well. But does it increase more rapidly than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned *Linear Regression*, seem to be very equal. We can obtain the slope coefficient <img src="https://render.githubusercontent.com/render/math?math=\beta_1">, which can be interpreted as: <img src="https://render.githubusercontent.com/render/math?math=y=\beta_1x"> + <img src="https://render.githubusercontent.com/render/math?math=\beta_0"> (<img src="https://render.githubusercontent.com/render/math?math=\beta_0"> being the intercept) to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using *Linear Regression* we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
 
 ![Water Rates and Inflation](waterrates2.png "waterrate")
 
@@ -155,7 +155,7 @@ Now we'll look further into coliform. The number of bad coliform samples are muc
 ![Coli per year](colimonthyear.png)
 
 
-But where are bad samples most often detected? The heatmap shows where most of the bad samples (where turbidity>1 or when coliform>=10) are detected.
+But where are bad samples most often detected? The heatmap shows where most of the bad samples (where turbidity>1 or when coliform>=10) are detected. We can see that the highest number of bad samples were detected in the Bronx borough. As previously stated, the Bronx borough has the highest poverty rate. Could this be one of the reasons behind increasing values of bad samples being detected in the Bronx? Perhabs the pipes and plumbing in the Bronx are of lower quality than elsewhere because of the poverty rate causing an increased chance of Turbidity and Coliform getting into the pipes. Although, before making any assumptions we must remember what we saw before, there are more sampling stations in the Bronx compared to some of the other boroughs.
 
 <iframe src="heatmapbad.html"
     sandbox="allow-same-origin allow-scripts"
@@ -166,9 +166,9 @@ But where are bad samples most often detected? The heatmap shows where most of t
     frameborder="0">
 </iframe>
 
-We can see that the highest number of bad samples were detected in the Bronx borough and also in Staten Island. 
 
-Now let's look at spatial patterns of the bad samples per year: 
+Now let's look at spatial patterns of the bad samples per year. We can see that the highest number of bad samples were detected in 2015. In 2020 it seems to have been less. Could this be related to Covid-19?
+
 
 
 <iframe src="movie.html"
@@ -180,7 +180,6 @@ Now let's look at spatial patterns of the bad samples per year:
     frameborder="0">
 </iframe>
 
-We can see that the highest number of bad samples were detected in 2015. In 2020 it seems to have been less. Could this be related to Covid-19?
 
 
 
