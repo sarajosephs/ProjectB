@@ -184,7 +184,7 @@ Now let's look at spatial patterns of the bad samples per year. Looking at the d
 
 ## Water Complaints
 
-We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” etc. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people in each borough. From the heat map of bad samples we could see that most bad samples were detected around Bronx. This is interesting as most water complaints come from Manhattan and one of the least complaints were from the Bronx. We already saw that the people of Manhattan have the highest income out of the five boroughs. Analysis about consumer behavior states that consumers with higher income tend to complain more often [[16]](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
+We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” etc. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people in each borough. From the heat map of bad samples we could see that most bad samples were detected in the Bronx borough. This is interesting as most water complaints come from Manhattan and one of the least complaints were from the Bronx. We already saw that the people of Manhattan have the highest income out of the five boroughs. Analysis about consumer behavior states that consumers with higher income tend to complain more often [[16]](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
 
 
 <iframe src="Complaints.html"
