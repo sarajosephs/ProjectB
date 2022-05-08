@@ -61,9 +61,9 @@ Now let’s analyze the difference in people's income per borough. The dataset c
 
 ![NYC income](income.png "income")
 
-## Drinking Fountains positions
+## Drinking Fountains Positions
 
-As previously stated, one of NYC goals was to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration. Out of curiosity we plotted the location of new york’s water fountains. From the geo-plot we can see that the fountains are very evenly distributed. Most of them seem to lie by the sea and in public parks. This seems reasonable as those places tend to be popular areas for running.
+As previously stated, one of NYC goals was to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration. Out of curiosity we plotted the location of New York’s water fountains. From the geo-plot we can see that the fountains are very evenly distributed. Most of them seem to lie by the sea and in public parks. This seems reasonable as those places tend to be popular areas for running.
 
 <iframe src="test.html"
     sandbox="allow-same-origin allow-scripts"
@@ -170,7 +170,7 @@ But where are bad samples most often detected? The heatmap shows where most of t
 
 We can see that the highest number of bad samples were detected in the Bronx borough and also in Staten Island. 
 
-Now lets look at spatial patterns of the bad samples per year: 
+Now let's look at spatial patterns of the bad samples per year: 
 
 
 <iframe src="movie.html"
@@ -205,8 +205,6 @@ We will explore the number of water complaints per year and borough. The complai
 From our analysis we saw that people in Manhattan complain more frequently about their water than other boroughs, despite it being the borough with the highest income (by large).  
 
 
-
-
 After doing some online research it was found that the real reason behind NYC's decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the city has worked towards eliminating waste in the infrastructure that supplies water to buildings. NYC has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The City uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them [[17]](https://www.hannahkates.com/nyc-water/). It could also be that in modern times people have become increasingly aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [[2]](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
 
 
@@ -225,7 +223,7 @@ After doing some online research it was found that the real reason behind NYC's 
 
 [6] “Population ecology - Logistic population growth. Britannica.”  [Online]. Available: https://www.britannica.com/science/population-ecology/Logistic-population-growth. [Accessed: May 08, 2022]
 
-[7]	“Reducing water use | YourHome.”  [Online]. Available: https://www.yourhome.gov.au/water/reducing-water-use. [Accessed: May 01, 2022].
+[7]	“Reducing water use. YourHome.”  [Online]. Available: https://www.yourhome.gov.au/water/reducing-water-use. [Accessed: May 01, 2022].
 
 [8] “New York City Local Law 84 - LL84 Compliance. WegoWise.”  [Online]. Available: https://www.wegowise.com/compliance/new-york-city-local-law-84. [Accessed: April 23, 2022].
 
