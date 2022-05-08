@@ -167,7 +167,7 @@ But where are bad samples most often detected? The heatmap shows where most of t
 </iframe>
 
 
-Now let's look at spatial patterns of the bad samples per year. Looking at the data year by year we dont see a huge difference in boroughs. We can see that the highest number of bad samples were detected in 2015. In 2020 there seems to be low activity. Could that be related to Covid19? Perhaps New York's water quality scientists were in quarantine.
+Now let's look at spatial patterns of the bad samples per year. Looking at the data year by year we dont see a huge difference in boroughs. We can see that the highest number of bad samples were detected in 2015. In 2020 there seems to be low activity. Could that be related to Covid-19? Perhaps New York's water quality scientists were in quarantine.
 
 
 <iframe src="movie.html"
