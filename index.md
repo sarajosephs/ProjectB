@@ -68,7 +68,7 @@ Now let’s analyse the difference of people's incomes per borough. The dataset 
 
 # Drinking Fountains positions
 
-As previously stated, one of NYC goals was to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration. Out of curiosity we plotted the location of new york’s water fountains. 
+As previously stated, one of NYC goals was to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration. Out of curiosity we plotted the location of new york’s water fountains. From the geo-plot we can see that the fountains are very evenly distributed. Most of them seem to lie by the sea and in public parks. This seems reasonable as those places tend to be popular areas for running.
 
 <iframe src="test.html"
     sandbox="allow-same-origin allow-scripts"
@@ -79,7 +79,7 @@ As previously stated, one of NYC goals was to install or repair 500 water founta
     frameborder="0">
 </iframe>
 
-From the plot we can see that the fountains are very evenly distributed. Most of them seem to lie by the sea and in public parks. This seems reasonable as those places tend to be popular areas for running.
+
 
 ## Multifamily Housing in the Boroughs
 
@@ -104,7 +104,7 @@ Could the reasoning for decreased water consumption of new york be because water
 
 New York’s drinking water is considered safe to drink. However, to be on the safe side using a water filter is recommended. New York actually has one of the cleanest drinking water in the US [Reference](https://tappwater.co/us/can-you-drink-nyc-tap-water/). Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the end point of the city’s distribution system, just before it enters the local service line that connects to buildings. [Reference](https://www1.nyc.gov/site/dep/water/water-monitoring.page)
 
-The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to present day. The sampling can bee seen on the geo-map below:
+The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to present day. The sampling sites can bee seen on the geo-map below. The sampling sites are well distributed, having more sites where the population density is more.
 
 
 <iframe src="samplingsites2.html"
