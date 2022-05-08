@@ -4,7 +4,7 @@ Today we are presented with new challenges associated with climate change, maint
 
 The NYC Watershed is an area of over 2,000 square miles. It drains its rainwater and snowmelt into 19 reservoirs and 3 controlled lakes, providing over 1 billion gallons of clean drinking water to more than 9 million New Yorkers every day. Over half the population of New York [[3]](https://mywoodlot.com/)!
 
-In the preceding sections we will explore how water consumption has changed as the population increases in New York, the quality of the water and where the bad water samples are distributed throughout the city, and much more!
+In the preceding sections we will explore how water consumption has changed as the population increases in New York, the quality of the water and where the bad water samples are distributed throughout the city, and much more! So keep on reading!
 
 
 ## Why New York?
