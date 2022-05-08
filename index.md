@@ -131,9 +131,9 @@ The amount of bad samples (samples which exceed the maximum value) were counted.
 | Chemical | Number of bad samples |
 | ------------- | ------------- |
 | Residual Free Chlorine   | 0 |
-| Turbidity  | 7689  |
+| Turbidity  | 7638  |
 | Fluoride   | 0 |
-| Coliform   | 138|
+| Coliform   | 137|
 | E.coli   | 0|
 
 ### Turbidity
