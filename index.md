@@ -96,15 +96,15 @@ Local Law 84 requires owners of large residential and commercial buildings in th
 
  
 ## Water Rates
-Could increased water rates be the reason behind the decrease in water consumption in New York? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year as well. But does it increase more rapidly than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned *Linear Regression*, seem to be very equal. We can obtain the slope coefficient $\beta_1$, which can be interpreted as: $y=\beta_1 x + \beta_0$ ($\beta_0 being the intercept$) to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
+Could increased water rates be the reason behind the decrease in water consumption in New York? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year as well. But does it increase more rapidly than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned *Linear Regression*, seem to be very equal. We can obtain the slope coefficient <img src="https://render.githubusercontent.com/render/math?math=\beta_1"> $\beta_1$, which can be interpreted as: <img src="https://render.githubusercontent.com/render/math?math=y=\beta_1x+\beta_0"> $y=\beta_1 x + \beta_0$ (<img src="https://render.githubusercontent.com/render/math?math=\beta_0"> $\beta_0 being the intercept$) to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
 
 ![Water Rates and Inflation](waterrates2.png "waterrate")
 
 ## Water Quality
 
-New York’s drinking water is considered safe to drink. However, to be on the safe side using a water filter is recommended. New York actually has one of the cleanest drinking water in the US [Reference](https://tappwater.co/us/can-you-drink-nyc-tap-water/). Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the end point of the city’s distribution system, just before it enters the local service line that connects to buildings [Ref](https://www1.nyc.gov/site/dep/water/water-monitoring.page).
+New York’s drinking water is considered safe to drink. However, to be on the safe side using a water filter is recommended. New York actually has one of the cleanest drinking water in the US [Reference](https://tappwater.co/us/can-you-drink-nyc-tap-water/). Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the endpoint of the city’s distribution system, just before it enters the local service line that connects to buildings [Ref](https://www1.nyc.gov/site/dep/water/water-monitoring.page).
 
-The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to present day. The sampling sites can bee seen on the geo-map below. The sampling sites are well distributed, having more sites where the population density is more.
+The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to the present day. The sampling sites can be seen on the geo-map below. The sampling sites are well distributed, having more sites where the population density is more.
 
 
 <iframe src="samplingsites2.html"
@@ -118,7 +118,7 @@ The water quality dataset contains 112,463 samples which are monthly samples obt
 
 
 
-The following parameters are tested and their recommended values from World Health Organization and EPA are the following:
+The following parameters were tested and their recommended values from World Health Organization and EPA are the following:
 
 - `Residual Free Chlorine (mg/L)` - The maximum allowable WHO value for free chlorine residual in drinking water is 5 mg/L.
 
@@ -150,14 +150,14 @@ We will look further into instances where turbidity>1. The dataset contains 7689
 ![Turbidity per year](turb2year.png) 
 
 
-When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [Ref](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). Although we did not contain water quality data from 1980-2015, these numbers show us that the quality of water in NYC may not be the best and can cause diseases. The risk of getting a gastrointestinal disease can be enaugh to make people vary of drinking tap water.
+When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [Ref](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). Although, we did not contain water quality data from 1980-2015, these numbers show us that the quality of water in NYC may not be the best and can cause diseases. The risk of getting a gastrointestinal disease can be enough to make people vary of drinking tap water.
 
 
 ![Turbidity per month](turbiditymonth11.png) 
 
 ### Coliform
 
-Now we'll look further into coliform. The number of bad coliform samples are much rarer than of turbidity, having 138 bad samples in the dataset. As for turbidity the number of bad samples peak in 2015, but also in 2021. From the monthly distribution we can see the highest peaks seem to happen in the summer months, July and August. A reason for this might be because coliform can enter well water through garden hoes, which are likely more often used in the summertime. Too much coliform level can cause an upset stomach, vomiting, fever or diarrhea [Ref](https://www.michigan.gov/documents/deq/deq-wd-gws-wcu-coliformbactiwellwatersampling_270604_7.pdf).
+Now we'll look further into coliform. The number of bad coliform samples are much rarer than of turbidity, having 138 bad samples in the dataset. As for turbidity the number of bad samples peak in 2015, but also in 2021. From the monthly distribution we can see the highest peaks seem to happen in the summer months, July and August. A reason for this might be because coliform can enter well water through garden hoes, which are likely more often used during summertime. Too much coliform level can cause an upset stomach, vomiting, fever or diarrhea [Ref](https://www.michigan.gov/documents/deq/deq-wd-gws-wcu-coliformbactiwellwatersampling_270604_7.pdf).
 
 ![Coli per year](colimonthyear.png)
 
@@ -187,13 +187,13 @@ Now lets look at spatial patterns of the bad samples per year:
     frameborder="0">
 </iframe>
 
-We can see that the most bad samples were detected in 2015. In 2020 it seems to be less. Could this relate to Covid19?
+We can see that the highest number of bad samples were detected in 2015. In 2020 it seems to have been less. Could this be related to Covid-19?
 
 
 
 ## Water complaints
 
-We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” etc. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people for each borough. From the heat map of bad samples we could see that most bad samples were detected around the Bronx, Manhattan and Staten Island. This is interesting as the most water complaints come from Manhattan and the least complaints are from the Bronx and Staten Island. For both the Bronx and Manhattan, the complaints peak in 2021. From our heatmap movie and our bar plots we saw that the most bad samples were in 2015 but the fewest complaints are in 2015 for most boroughs. We already saw that the people of Manhattan have the most income out of the five boroughs. Analysis about consumer behavior states that consumers with more income tend to complain more often [Ref](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
+We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” etc. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people in each borough. From the heat map of bad samples we could see that most bad samples were detected around Bronx, Manhattan and Staten Island. This is interesting as most water complaints come from Manhattan and the least complaints were from the Bronx and Staten Island. For both the Bronx and Manhattan, the complaints peak in 2021. From our heatmap movie and our bar plots we saw that the highest number of bad samples were in 2015 but the fewest complaints are in 2015 for most boroughs. We already saw that the people of Manhattan have the highest income out of the five boroughs. Analysis about consumer behavior states that consumers with higher income tend to complain more often [Ref](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
 
 
 <iframe src="Complaints.html"
@@ -212,5 +212,5 @@ From our analysis we saw that....
 
 
 
-After doing some online research it was found that the real reason behind NYC decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the City has worked towards eliminating waste in the infrastructure that supplies water to buildings. NYC has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The City uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them [Ref](https://www.hannahkates.com/nyc-water/). It could also be that in modern times people have become more and more aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [Ref](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
+After doing some online research it was found that the real reason behind NYC's decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the city has worked towards eliminating waste in the infrastructure that supplies water to buildings. NYC has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The City uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them [Ref](https://www.hannahkates.com/nyc-water/). It could also be that in modern times people have become increasingly aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [Ref](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
 
