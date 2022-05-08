@@ -200,17 +200,17 @@ We will explore the number of water complaints per year and borough. The complai
     frameborder="0">
 </iframe>
 
-## Conclusion
+# Conclusion
 
 From our analysis we saw that people in Manhattan complain more frequently about their water than other boroughs, despite it being the borough with the highest income (by large).  
 
 
 
 
-After doing some online research it was found that the real reason behind NYC's decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the city has worked towards eliminating waste in the infrastructure that supplies water to buildings. NYC has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The City uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them [[17]](https://www.hannahkates.com/nyc-water/). It could also be that in modern times people have become increasingly aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [[1]](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
+After doing some online research it was found that the real reason behind NYC's decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the city has worked towards eliminating waste in the infrastructure that supplies water to buildings. NYC has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The City uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them [[17]](https://www.hannahkates.com/nyc-water/). It could also be that in modern times people have become increasingly aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [[2]](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
 
 
-## References
+# References
 
 
 [1]	Y. Gorokhovich and V. Goldsmith, “Water supply management of the New York Metropolitan area and future challenges from population growth and global climate change,” IAHS-AISH Publ., vol. 327, Nov. 2008.
@@ -223,27 +223,27 @@ After doing some online research it was found that the real reason behind NYC's 
 
 [5]	“Water Fountain and Bottle Refill Stations · NYC311.”  [Online]. Available: https://portal.311.nyc.gov/article/?kanumber=KA-03088. [Accessed: April 22, 2022].
 
-[6] “Population ecology - Logistic population growth | Britannica.”  [Online]. Available: https://www.britannica.com/science/population-ecology/Logistic-population-growth. [Accessed: May 08, 2022]
+[6] “Population ecology - Logistic population growth. Britannica.”  [Online]. Available: https://www.britannica.com/science/population-ecology/Logistic-population-growth. [Accessed: May 08, 2022]
 
 [7]	“Reducing water use | YourHome.”  [Online]. Available: https://www.yourhome.gov.au/water/reducing-water-use. [Accessed: May 01, 2022].
 
-[8]	“New York City Local Law 84 - LL84 Compliance | WegoWise.”  [Online]. Available: https://www.wegowise.com/compliance/new-york-city-local-law-84. [Accessed: April 23, 2022].
+[8] “New York City Local Law 84 - LL84 Compliance. WegoWise.”  [Online]. Available: https://www.wegowise.com/compliance/new-york-city-local-law-84. [Accessed: April 23, 2022].
 
 [9] “The poorest borough Stats and the City.”  [Online]. Available: https://mycrains.crainsnewyork.com/stats-and-the-city/2013/bronx/the-poorest-borough/. [Accessed: May 08, 2022].
 
-[10] 	“Can you drink NYC tap water?,” USA, Feb. 07, 2020.  [Online]. Available: https://tappwater.co/us/can-you-drink-nyc-tap-water/. [Accessed: May 01, 2022],
+[10] “Can you drink NYC tap water?,” USA, Feb. 07, 2020.  [Online]. Available: https://tappwater.co/us/can-you-drink-nyc-tap-water/. [Accessed: May 01, 2022],
 
-[11]	“Water Monitoring - DEP.”  [Online]. Available: https://www1.nyc.gov/site/dep/water/water-monitoring.page. [Accessed: May 07, 2022].
+[11] “Water Monitoring - DEP.”  [Online]. Available: https://www1.nyc.gov/site/dep/water/water-monitoring.page. [Accessed: May 07, 2022].
 
-[12]	“Evaluating drinking water quality of New York city | Kaggle.”  [Online]. Available: https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data. [Accessed: May 01, 2022].
+[12] “Evaluating drinking water quality of New York city. Kaggle.”  [Online]. Available: https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data. [Accessed: May 01, 2022].
 
-[13]	J. Martin, “Let’s Talk Turbidity in Water.”  [Online]. Available: https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water. [Accessed: May 04, 2022].
+[13] J. Martin, “Let’s Talk Turbidity in Water.”  [Online]. Available: https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water. [Accessed: May 04, 2022].
 
-[14]	J. L. Hsieh, T. Q. Nguyen, T. Matte, and K. Ito, “Drinking Water Turbidity and Emergency Department Visits for Gastrointestinal Illness in New York City, 2002-2009,” PLoS ONE, vol. 10, no. 4, p. e0125071, Apr. 2015, doi: 10.1371/journal.pone.0125071.
+[14] J. L. Hsieh, T. Q. Nguyen, T. Matte, and K. Ito, “Drinking Water Turbidity and Emergency Department Visits for Gastrointestinal Illness in New York City, 2002-2009,” PLoS ONE, vol. 10, no. 4, p. e0125071, Apr. 2015, doi: 10.1371/journal.pone.0125071.
 
-[15]	“Coliform Bacteria in Drinking Water for Well Owners,” p. 2.
+[15] “Coliform Bacteria in Drinking Water for Well Owners,” p. 2.
 
-[16]	M. A. Morganosky and H. M. Buckley, “Complaint Behavior: Analysis By Demographics, Lifestyle, and Consumer Values,” ACR North Am. Adv., vol. NA-14, 1987 [Online]. Available: https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14/full. [Accessed: May 02, 2022].
+[16] M. A. Morganosky and H. M. Buckley, “Complaint Behavior: Analysis By Demographics, Lifestyle, and Consumer Values,” ACR North Am. Adv., vol. NA-14, 1987 [Online]. Available: https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14/full. [Accessed: May 02, 2022].
 
 [17]	H. Kates, “NYC’s Remarkable Decline in Water Consumption.”  [Online]. Available: http://www.hannahkates.com/nyc-water. [Accessed: May 02, 2022].
 
