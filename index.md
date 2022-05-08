@@ -138,7 +138,7 @@ The amount of bad samples (samples which exceed the maximum value) were counted.
 
 ### Turbidity
 
-We will look further into instances where turbidity>1. The dataset contains 7689 samples with turbidity over the allowed limit. From the graph it can be seen that turbidity instances seem to have been unusually high in 2015.
+We will look further into instances where turbidity>1. The dataset contains 7638 samples with turbidity over the allowed limit. From the graph it can be seen that turbidity instances seem to have been unusually high in 2015.
 
 
 ![Turbidity per year](turb2year.png) 
@@ -150,7 +150,7 @@ When we look at the instances per month, we can see that the mean turbidity per 
 
 ### Coliform
 
-Now we'll look further into coliform. The number of bad coliform samples are much rarer than of turbidity, having 138 bad samples in the dataset. As for turbidity the number of bad samples peak in 2015, but also in 2021. From the monthly distribution we can see the highest peaks seem to happen in the summer months, July and August. A reason for this might be because coliform can enter well water through garden hoes, which are likely more often used during summertime. Too much coliform level can cause an upset stomach, vomiting, fever or diarrhea [[15]](https://www.michigan.gov/documents/deq/deq-wd-gws-wcu-coliformbactiwellwatersampling_270604_7.pdf).
+Now we'll look further into coliform. The number of bad coliform samples are much rarer than of turbidity, having 137 bad samples in the dataset. As for turbidity the number of bad samples peak in 2015, but also in 2021. From the monthly distribution we can see the highest peaks seem to happen in the summer months, July and August. A reason for this might be because coliform can enter well water through garden hoes, which are likely more often used during summertime. Too much coliform level can cause an upset stomach, vomiting, fever or diarrhea [[15]](https://www.michigan.gov/documents/deq/deq-wd-gws-wcu-coliformbactiwellwatersampling_270604_7.pdf).
 
 ![Coli per year](colimonthyear.png)
 
