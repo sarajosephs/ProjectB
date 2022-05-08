@@ -2,13 +2,13 @@
 
 Today we are presented with new challenges associated with climate change, maintenance and enhancement of current conservation measures and continuing demands for economic development in upstate watershed communities [[1]](https://www.researchgate.net/publication/228436399_Water_supply_management_of_the_New_York_Metropolitan_area_and_future_challenges_from_population_growth_and_global_climate_change). Water is one of the world’s most precious resources – but as the planet’s climate changes and the population rises, up to 5.7 billion people could be living in areas where water is scarce for at least one month a year by 2050. That’s why companies and individuals are exploring ways of saving this life-giving liquid [[2]](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
 
-The NYC Watershed is an area of over 2,000 square miles. It drains its rainwater and snowmelt into 19 reservoirs and 3 controlled lakes, providing over 1 billion gallons of clean drinking water to more than 9 million New Yorkers every day. Over half the population of New York! [[3]](https://mywoodlot.com/)
+The NYC Watershed is an area of over 2,000 square miles. It drains its rainwater and snowmelt into 19 reservoirs and 3 controlled lakes, providing over 1 billion gallons of clean drinking water to more than 9 million New Yorkers every day. Over half the population of New York [[3]](https://mywoodlot.com/)!
 
 In the preceding sections we will explore how water consumption has changed as the population increases in New York, the quality of the water and where the bad water samples are distributed throughout the city, and much more!
 
 
 ## Why New York?
-New York City has one of the largest surface water supply systems in the US and has the highest population density of any major city in the US [[4]](https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page). It is also committed to providing high quality drinking water to residents and visitors. As an example between the years 2015 and 2025, New York aims to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration. [[5]](https://portal.311.nyc.gov/article/?kanumber=KA-03088)
+New York City has one of the largest surface water supply systems in the US and has the highest population density of any major city in the US [[4]](https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page). It is also committed to providing high quality drinking water to residents and visitors. As an example between the years 2015 and 2025, New York aims to install or repair 500 water fountains and water bottle refilling stations to encourage proper hydration [[5]](https://portal.311.nyc.gov/article/?kanumber=KA-03088).
 
 
 # Water Consumption in New York City
@@ -78,17 +78,17 @@ As previously stated, one of NYC goals was to install or repair 500 water founta
 
 ## Multifamily Housing in the Boroughs
 
-Local Law 84 requires owners of large residential and commercial buildings in the five boroughs of New York to submit annual energy and water consumption reports to the city [[8]](https://www.wegowise.com/compliance/new-york-city-local-law-84). Looking into multifamily housing between the years 2015 to 2020 we notice the decreasing trend in water consumption in most of the boroughs in the figure below, except in Queens. Notice that between the years 2019 and 2020 there was a sudden increase in water consumption during the Covid-19 pandemic in some boroughs. This makes sense as people were staying more indoors at home and statistical tests showed that our observations are significant for Bronx and Queens which means the increase is unlikely due to chance. Covid-19 definitely had an impact! The increase was also quite high compared to other changes throughout the years. Additionally, according to the statistics, the Bronx borough has the highest poverty rate in New York, around 30% [[9]](). One would assume that there would be a distinct difference in water consumption between the boroughs based on the poverty rate but that does not seem to be the case here.
+Local Law 84 requires owners of large residential and commercial buildings in the five boroughs of New York to submit annual energy and water consumption reports to the city [[8]](https://www.wegowise.com/compliance/new-york-city-local-law-84). Looking into multifamily housing between the years 2015 to 2020 we notice the decreasing trend in water consumption in most of the boroughs in the figure below, except in Queens. Notice that between the years 2019 and 2020 there was a sudden increase in water consumption during the Covid-19 pandemic in some boroughs. This makes sense as people were staying more indoors at home and statistical tests showed that our observations are significant for Bronx and Queens which means the increase is unlikely due to chance. Covid-19 definitely had an impact! The increase was also quite high compared to other changes throughout the years. Additionally, according to the statistics, the Bronx borough has the highest poverty rate in New York, around 30% [[9]](https://mycrains.crainsnewyork.com/stats-and-the-city/2013/bronx/the-poorest-borough/). One would assume that there would be a distinct difference in water consumption between the boroughs based on the poverty rate but that does not seem to be the case here.
 
 <iframe src="MedianWaterperBoroughMultFam.html"
     sandbox="allow-same-origin allow-scripts"
-    width="120%"
+    width="100%"
     height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
-
+ 
  
 ## Water Rates
 Could increased water rates be the reason behind the decrease in water consumption in New York? Looking at the leftmost graph, we can see an obvious upwards trend in water rates over the years 1980 to 2021. This does not come as a surprise as the dollar inflation increases every year as well. But does it increase more rapidly than the dollar inflation? Looking at the two graphs side by side their fitted slopes, implemented with the aforementioned *Linear Regression*, seem to be very equal. We can obtain the slope coefficient <img src="https://render.githubusercontent.com/render/math?math=\beta_1"> $\beta_1$, which can be interpreted as: <img src="https://render.githubusercontent.com/render/math?math=y=\beta_1x"> + <img src="https://render.githubusercontent.com/render/math?math=\beta_0"> (<img src="https://render.githubusercontent.com/render/math?math=\beta_0"> being the intercept) to see if the two slopes are equal. This must be done on standardized data as the scales of the y-axis are very different for the two graphs. Standardizing means transforming the data such that the mean becomes 0 and the variance becomes 1. Using Linear Regression we could see that the slope for the water rates is 0.9443 and for inflation is 0.9984. This tells us that water rates increase at a slightly lower rate than inflation, with a difference of 0.0540. 
@@ -113,7 +113,8 @@ The water quality dataset contains 112,463 samples which are monthly samples obt
 
 
 
-The following parameters were tested and their recommended values from World Health Organization and EPA are the following:
+The following parameters were tested and their recommended values from World Health Organization and EPA are the following 
+[[12]](https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data):
 
 - `Residual Free Chlorine (mg/L)` - The maximum allowable WHO value for free chlorine residual in drinking water is 5 mg/L.
 
@@ -125,7 +126,6 @@ The following parameters were tested and their recommended values from World Hea
 
 - `E.coli(Quanti-Tray) (MPN/100mL)` - E. coli levels at designated swimming beaches should not exceed 88 per 100 milliliter (mL) in any one sample, or exceed a three-sample geometric mean average over a 60-day period of 47/100 mL.
 
-[[12]](https://www.kaggle.com/code/aashaymaheshwari/evaluating-drinking-water-quality-of-new-york-city#Data)
 
 The amount of bad samples (samples which exceed the maximum value) were counted. The results were the following: 
 
