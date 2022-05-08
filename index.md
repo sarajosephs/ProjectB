@@ -155,7 +155,7 @@ Now we'll look further into coliform. The number of bad coliform samples are muc
 ![Coli per year](colimonthyear.png)
 
 
-But where are bad samples most often detected? The heatmap shows where most of the bad samples (where turbidity>1 or when coliform>=10) are detected. We can see that the highest number of bad samples were detected in the Bronx borough. As previously stated, the Bronx borough has the highest poverty rate. Could this be one of the reasons behind increasing values of bad samples being detected in the Bronx? Perhabs the pipes and plumbing in the Bronx are of lower quality than elsewhere because of the poverty rate causing an increased chance of Turbidity and Coliform getting into the pipes. Although, before making any assumptions we must remember what we saw before, there are more sampling stations in the Bronx compared to some of the other boroughs.
+But where are bad samples most often detected? The heatmap shows where most of the bad samples (where turbidity>1 or when coliform>=10) are detected. We can see that the highest number of bad samples were detected in the Bronx borough. As previously stated, the Bronx borough has the highest poverty rate. Could this be one of the reasons behind increasing values of bad samples being detected in the Bronx? Perhaps the pipes and plumbing in the Bronx are of lower quality than elsewhere because of the poverty rate causing an increased chance of Turbidity and Coliform getting into the pipes. Although, before making any assumptions we must remember what we saw before, there are more sampling stations in the Bronx compared to some of the other boroughs.
 
 <iframe src="heatmapbad.html"
     sandbox="allow-same-origin allow-scripts"
