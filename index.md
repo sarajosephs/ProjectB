@@ -35,7 +35,7 @@ Another interesting thing we noticed was that there is a strong relationship bet
 
 ## New York City Demographics
 
-New York city is composed of five boroughs, Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. For this reason, we will compare statistics between boroughs of New York City in the data analysis.
+New York city is composed of five boroughs, Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. We will compare statistics between boroughs of New York City with data analysis and visualizations.
 
 <iframe src="Borough.html"
     sandbox="allow-same-origin allow-scripts"
