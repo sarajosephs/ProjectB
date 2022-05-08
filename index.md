@@ -25,7 +25,7 @@ We began by investigating basic aspects of water consumption in New York. Over t
 
 ## Is there a linear trend between water consumption and population growth? Is there a trend between the years?
 
-Before we dive deeper into water in New York we wanted to investigate the associations between water consumption and population growth per year. To do that a machine learning strategy called *Linear Regression* was used to fit a line between our datapoints. When referring to water, the unit *MGD* refers to millions of gallons per day. From the figure in tab 1 below it is evident that there is a linear decline in water consumption with coefficient of determination <img src="https://render.githubusercontent.com/render/math?math=R^2=0.898">. The coefficient being close to 1 means that there is a strong relation between water consumption and years which supports our assumption. Additionally, looking at the population growth (tab 2) it seems that there is a linear increase, although in general population growth is a common example of exponential growth, but that is in an ideal environment [Ref](https://www.britannica.com/science/population-ecology/Logistic-population-growth). The model had <img src="https://render.githubusercontent.com/render/math?math=R^2=0.96">, even better than the fit for the water consumption, which indicates that in New York the population growth is highly dependent on the years and is increasing at a fast rate according to the figure! This will definitely be an issue in the futre as New York has the highest population density of any major city in the US [Ref](https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page). 
+Before we dive deeper into water in New York we wanted to investigate the associations between water consumption and population growth per year. To do that a machine learning strategy called *Linear Regression* was used to fit a line between our datapoints. When referring to water, the unit *MGD* refers to millions of gallons per day. From the figure in tab 1 below it is evident that there is a linear decline in water consumption with coefficient of determination <img src="https://render.githubusercontent.com/render/math?math=R^2=0.898">. The coefficient being close to 1 means that there is a strong relation between water consumption and years which supports our assumption. Additionally, looking at the population growth (tab 2) it seems that there is a linear increase, although in general population growth is a common example of exponential growth, but that is in an ideal environment [Ref](https://www.britannica.com/science/population-ecology/Logistic-population-growth). The model had <img src="https://render.githubusercontent.com/render/math?math=R^2=0.96">, even better than the fit for the water consumption, which indicates that in New York the population growth is highly dependent on the years and is increasing at a fast rate according to the figure! This will definitely be an issue in the future as New York has the highest population density of any major city in the US [Ref](https://www1.nyc.gov/site/planning/planning-level/nyc-population/population-facts.page). 
 
 Another interesting thing we noticed was that there is a strong relationship between the large increase in population and decrease in water consumption, see tab 3. This is suprising as a rise in population leads to higher demand for water. The decrease in water consumption could be due to other factors such as improvements in technology, i.e. water-efficient taps, toilets, showerheads, and appliances that can significantly reduce water usage [Ref](https://www.yourhome.gov.au/water/reducing-water-use).
 
@@ -40,7 +40,7 @@ Another interesting thing we noticed was that there is a strong relationship bet
 
 ## New York City Demographics
 
-New York City is composed of five boroughs Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. For this reason, we will compare statistics between boroughs of New York City in the data analysis.
+New York city is composed of five boroughs Bronx, Brooklyn, Manhattan, Queens, and Staten Island. In the map below we can see how the boroughs are positioned. With the establishment of modern New York City in 1898, all five boroughs came into existence. For this reason, we will compare statistics between boroughs of New York City in the data analysis.
 
 <iframe src="Borough.html"
     sandbox="allow-same-origin allow-scripts"
@@ -51,7 +51,7 @@ New York City is composed of five boroughs Bronx, Brooklyn, Manhattan, Queens, a
     frameborder="0">
 </iframe>
 
-From the map we can see the population density in New York City, Lighter color representing areas of low population density and darker color representing areas of high population density. On the map we see that the highest population density is in Manhattan, more spesifically in the Upper East Side of Manhattan
+The population density in New York is visualized in the map below where lighter colors represents areas of low population density and darker colors represent areas of high population density. On the map we see that the highest population density is in Manhattan, more spesifically in the Upper East Side of Manhattan.
 
 <iframe src="dens.html"
     sandbox="allow-same-origin allow-scripts"
@@ -62,7 +62,7 @@ From the map we can see the population density in New York City, Lighter color r
     frameborder="0">
 </iframe>
 
-Now let’s analyse the difference of people's incomes per borough. The dataset contained information about income per capita in each borough-block-bot (BBL) and from this we could calculate the mean income per capita in each borough. It seems that the Bronx, Brooklyn, Queens and Staten Island have similar incomes whereas the people from Manhattan have considerably more income.
+Now let’s analyze the difference in people's income per borough. The dataset contained information about income per capita in each borough-block-bot (BBL) and from this we could calculate the mean income per capita in each borough. It seems that the Bronx, Brooklyn, Queens and Staten Island have similar incomes whereas the people from Manhattan have considerably more income.
 
 ![NYC income](income.png "income")
 
