@@ -13,12 +13,12 @@ New York City has one of the largest surface water supply systems in the US and 
 
 # Water Consumption in New York City
 
-We began by investigating basic aspects of water consumption in New York. Over the years 1980-2021 we notice a downwards trend for water consumption although the population increases. How may this be? We will do further analysis of various NYC data, exploring the water consumption of different boroughs and relate that with social aspects such as income. We will also look further into the quality of water and water rates to see if that might be one of the reasons for the decrease in water consumption. 
+We began by investigating basic aspects of water consumption in New York. Over the years 1980-2021 we notice a downwards trend for water consumption although the population increases. How may this be? We will do further analysis of various NYC data, exploring the water consumption of different boroughs and relate that with social aspects such as income. We will also look further into the quality of water and water rates.
 
 
 ![Water Consumption and Population Growth per year](comsumption.png "WC")
 
-## Is there correlation between water consumption and population growth? Is there a trend between the years?
+## Water Consumption and Population Growth
 
 Before we dive deeper into water in New York we wanted to investigate the associations between water consumption and population growth per year. To do that a machine learning strategy called *Linear Regression* was used to fit a line between our datapoints. When referring to water, the unit *MGD* refers to millions of gallons per day. From the figure in tab 1 below it is evident that there is a linear decline in water consumption with coefficient of determination <img src="https://render.githubusercontent.com/render/math?math=R^2=0.898">. The coefficient being close to 1 means that there is a strong relation between water consumption and years which supports our assumption. Additionally, looking at the population growth (tab 2) it seems that there is a linear increase, although in general population growth is a common example of exponential growth, but that is in an ideal environment [[6]](https://www.britannica.com/science/population-ecology/Logistic-population-growth). The model had <img src="https://render.githubusercontent.com/render/math?math=R^2=0.96">, even better than the fit for the water consumption, which indicates that in New York the population growth is highly dependent on the years and is increasing at a fast rate according to the figure! This will definitely be an issue in the future because as we mentioned above New York has the highest population density of any major city in the US. 
 
@@ -186,7 +186,7 @@ We can see that the highest number of bad samples were detected in 2015. In 2020
 
 
 
-## Water complaints
+## Water Complaints
 
 We will explore the number of water complaints per year and borough. The complaints were of various types, for example, “cloudy or milky water”, “oil, grease in water”, “taste/odor” etc. To make sure the results weren’t biased because of population we divided the number of complaints with the number of people in each borough. From the heat map of bad samples we could see that most bad samples were detected around Bronx, Manhattan and Staten Island. This is interesting as most water complaints come from Manhattan and the least complaints were from the Bronx and Staten Island. For both the Bronx and Manhattan, the complaints peak in 2021. From our heatmap movie and our bar plots we saw that the highest number of bad samples were in 2015 but the fewest complaints are in 2015 for most boroughs. We already saw that the people of Manhattan have the highest income out of the five boroughs. Analysis about consumer behavior states that consumers with higher income tend to complain more often [[16]](https://www.acrwebsite.org/volumes/6691/volumes/v14/NA-14). 
 
