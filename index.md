@@ -97,10 +97,9 @@ Could increased water rates be the reason behind the decrease in water consumpti
 
 ## Water Quality
 
-New York’s drinking water is considered safe to drink. However, to be on the safe side using a water filter is recommended. New York actually has one of the cleanest drinking water in the US [[10]](https://tappwater.co/us/can-you-drink-nyc-tap-water/). Each month, New York’s water quality scientists collect more than 1,300 water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the endpoint of the city’s distribution system, just before it enters the local service line that connects to buildings [[11]](https://www1.nyc.gov/site/dep/water/water-monitoring.page).
+New York’s drinking water is considered safe to drink. However, to be on the safe side using a water filter is recommended. New York actually has one of the cleanest drinking water in the US [[10]](https://tappwater.co/us/can-you-drink-nyc-tap-water/). New York’s water quality scientists collect water samples from up to 546 locations. Street-side drinking water sampling stations allow them to sample the water at the endpoint of the city’s distribution system, just before it enters the local service line that connects to buildings [[11]](https://www1.nyc.gov/site/dep/water/water-monitoring.page).
 
-The water quality dataset contains 112,463 samples which are monthly samples obtained from New York’s sample sites over the years 2015 to the present day. The sampling sites can be seen on the geo-map below. The sampling sites are well distributed, having more sites where the population density is more.
-
+The water quality dataset contains 112,463 samples which are daily samples obtained from New York’s sample sites over the years 2015 to the present day. The sampling sites can be seen on the geo-map below. The sampling sites are well distributed, having more sites where the population density is more.
 
 <iframe src="samplingsites2.html"
     sandbox="allow-same-origin allow-scripts"
@@ -145,8 +144,7 @@ We will look further into instances where turbidity>1. The dataset contains 7689
 ![Turbidity per year](turb2year.png) 
 
 
-When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [[13]](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [14](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). Although, we did not contain water quality data from 1980-2015, these numbers show us that the quality of water in NYC may not be the best and can cause diseases. The risk of getting a gastrointestinal disease can be enough to make people vary of drinking tap water.
-
+When we look at the instances per month, we can see that the mean turbidity per month exceeds the allowed value four times in 2015 and once in 2018. Too much water turbidity can have bad repercussions since too much turbidity can lead to gastrointestinal diseases [[13]](https://www.eldoradosprings.com/blog/lets-talk-turbidity-in-water).  Studies have shown that there might be a relationship between drinking water turbidity and emergency department visits for gastrointestinal illnesses [14](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412479/). 
 
 ![Turbidity per month](turbiditymonth11.png) 
 
