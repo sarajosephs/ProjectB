@@ -1,3 +1,5 @@
+<button type="button">Click Me!</button>
+
 <a href="https://google.com" class="button">Go to Google</a>
 
 # Water in New York City
