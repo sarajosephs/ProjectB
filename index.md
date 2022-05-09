@@ -1,3 +1,5 @@
+<a href="https://google.com" class="button">Go to Google</a>
+
 # Water in New York City
 
 Today we are presented with new challenges associated with climate change, maintenance and enhancement of current conservation measures and continuing demands for economic development in upstate watershed communities [[1]](https://www.researchgate.net/publication/228436399_Water_supply_management_of_the_New_York_Metropolitan_area_and_future_challenges_from_population_growth_and_global_climate_change). Water is one of the world’s most precious resources – but as the planet’s climate changes and the population rises, up to 5.7 billion people could be living in areas where water is scarce for at least one month a year by 2050. That’s why companies and individuals are exploring ways of saving this life-giving liquid [[2]](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
