@@ -203,15 +203,14 @@ After doing some online research it was found that the real reason behind NYC's 
 
 
 ## Explainer Notebook
-<button class="btn btn-outline"
+
+<button cclass="button">Go to Explainer Notebook</a>
                   type="button"
                   onclick="window.open('https://nbviewer.org/github/sarajosephs/ProjectB/blob/gh-pages/ExplainerNotebook.ipynb','_blank')">
-        value="Go to Explainer Notebook"
-            Chat Kami
-          </button>
+        value="Go to Explainer Notebook
+        </button>
           
   ## Test        
-<!DOCTYPE html>
 <html>
    <head>
       <title>Make a Button Link to Another Page</title>
