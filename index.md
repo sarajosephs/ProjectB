@@ -210,6 +210,29 @@ After doing some online research it was found that the real reason behind NYC's 
             Chat Kami
           </button>
           
+  ## Test        
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Make a Button Link to Another Page</title>
+      <style>
+         .button {
+            background-color: #1c87c9;
+            box-shadow: 0 5px 0 #105cad;
+            color: white;
+            padding: 1em 1.5em;
+            position: relative;
+            text-decoration: none;
+            display: inline-block;
+        }
+      </style>
+   </head>
+   <body>
+      <a href="https://nbviewer.org/github/sarajosephs/ProjectB/blob/gh-pages/ExplainerNotebook.ipynb" class="button">Click here</a>
+   </body>
+</html>
+      
+          
 # References
 
 
