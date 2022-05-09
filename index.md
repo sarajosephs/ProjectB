@@ -197,7 +197,7 @@ We will explore the number of water complaints per year and borough. The complai
 
 Compared to other types of water complaints we see that "taste/odor" is the only complaint type which peaks in 2019! This supports our previous claims, perhaps Covid-19 actually did have an impact!
 
-![Complaint types](watercomplainttype.png)
+![Complaint types](watercomplaintstype.png)
 
 # Conclusion
 
