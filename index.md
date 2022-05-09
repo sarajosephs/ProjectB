@@ -201,36 +201,6 @@ Now we’ve analyzed and discovered intriguing facts about water in New York. In
 
 After doing some online research it was found that the real reason behind NYC's decreased water consumption is the installation of new toilets which consume much less water per flush than before. Also, the city has worked towards eliminating waste in the infrastructure that supplies water to buildings. New York has about 7,000 miles of sub-surface water main infrastructure. The vast network consists of aging pipes that are prone to developing leaks. The city uses sonar and other technology to find the leaks, and it has achieved an average estimated savings of 1.89 million gallons per day from repairing them [[17]](https://www.hannahkates.com/nyc-water/). It could also be that in modern times people have become increasingly aware of saving water in relation to climate change. For example, showering for a shorter time reduces CO2 emissions by cutting the amount of energy needed to heat water [[2]](https://www.henkel.com/spotlight/2020-03-20-saving-water-and-tackling-climate-change-1046204).
 
-
-## Explainer Notebook
-
-<button cclass="button">Go to Explainer Notebook</a>
-                  type="button"
-                  onclick="window.open('https://nbviewer.org/github/sarajosephs/ProjectB/blob/gh-pages/ExplainerNotebook.ipynb','_blank')">
-        value="Go to Explainer Notebook
-        </button>
-          
-  ## Test        
-<html>
-   <head>
-      <title>Make a Button Link to Another Page</title>
-      <style>
-         .button {
-            background-color: #1c87c9;
-            box-shadow: 0 5px 0 #105cad;
-            color: white;
-            padding: 1em 1.5em;
-            position: relative;
-            text-decoration: none;
-            display: inline-block;
-        }
-      </style>
-   </head>
-   <body>
-      <a href="https://nbviewer.org/github/sarajosephs/ProjectB/blob/gh-pages/ExplainerNotebook.ipynb" class="button">Click here</a>
-   </body>
-</html>
-      
           
 # References
 
