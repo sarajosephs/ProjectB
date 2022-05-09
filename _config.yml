@@ -7,4 +7,6 @@ The project assignment investigates water consumption and quality and availabili
 navbar-links:
   About Me: "aboutme"
   Resources:
-  Author's home: "https://nbviewer.org/github/sarajosephs/ProjectB/blob/gh-pages/ExplainerNotebook.ipynb"
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
