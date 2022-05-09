@@ -205,7 +205,8 @@ After doing some online research it was found that the real reason behind NYC's 
 ## Explainer Notebook
 <button class="btn btn-outline"
                   type="button"
-                  onclick="window.open('https://nbviewer.org/github/sarajosephs/ProjectB/blob/gh-pages/ExplainerNotebook.ipynb','_blank')"> 
+                  onclick="window.open('https://nbviewer.org/github/sarajosephs/ProjectB/blob/gh-pages/ExplainerNotebook.ipynb','_blank')">
+        value="Go to Explainer Notebook"
             Chat Kami
           </button>
           
