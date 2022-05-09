@@ -26,7 +26,7 @@ Another interesting thing we noticed was that there is a strong relationship bet
 
 <iframe src="LinearFitWaterConsumption.html"
     sandbox="allow-same-origin allow-scripts"
-    width="120%"
+    width="100%"
     height="600"
     scrolling="no"
     seamless="seamless"
@@ -39,7 +39,7 @@ New York city is composed of five boroughs: Bronx, Brooklyn, Manhattan, Queens, 
 
 <iframe src="Borough.html"
     sandbox="allow-same-origin allow-scripts"
-    width="120%"
+    width="100%"
     height="600"
     scrolling="no"
     seamless="seamless"
@@ -50,7 +50,7 @@ The population density in New York is visualized in the map below where lighter 
 
 <iframe src="dens.html"
     sandbox="allow-same-origin allow-scripts"
-    width="120%"
+    width="100%"
     height="700"
     scrolling="no"
     seamless="seamless"
