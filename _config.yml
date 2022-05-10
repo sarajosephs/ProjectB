@@ -1,3 +1,9 @@
 theme: jekyll-theme-cayman
+
 title: [Water in New York]
-description: [This is the final project for the course Social Data Analysis and Visualization (02806). Taught at DTU in the spring 2022. The project assignment investigates water consumption and quality and availability in relation to social data.]
+description: [This is the final project for the course Social Data Analysis and Visualization (02806). Taught at DTU in the spring 2022. 
+The project assignment investigates water consumption and quality and availability in relation to social data.]
+
+github:
+  zip_url: http://example.com/download.zip
+  another_url: another value

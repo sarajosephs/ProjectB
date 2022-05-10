@@ -1,7 +1,5 @@
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
   
@@ -9,36 +7,22 @@
     
       <meta charset="utf-8">
       <title>Bokeh Plot</title>
-      
-      
-        
-          
-        
         
           
         <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
         <script type="text/javascript">
             Bokeh.set_log_level("info");
         </script>
-        
-      
-      
+
     
   </head>
   
   
-  <body>
-    
-      
-        
-          
+  <body> 
           
             
               <div class="bk-root" id="4070a329-ac8f-4389-b196-98450f5280a2" data-root-id="2867"></div>
-            
-          
-        
-      
+
       
         <script type="application/json" id="3134">
           {"386ec002-5a5d-459a-af42-ed7ceac9833b":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"2877"}],"center":[{"id":"2879"},{"id":"2883"}],"height":480,"left":[{"id":"2880"}],"renderers":[{"id":"2890"}],"title":{"id":"2868"},"toolbar":{"id":"2884"},"toolbar_location":null,"width":700,"x_range":{"id":"2866"},"x_scale":{"id":"2873"},"y_range":{"id":"2871"},"y_scale":{"id":"2875"}},"id":"2867","subtype":"Figure","type":"Plot"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"2885"}},"line_color":{"value":"#1f77b4"},"top":{"field":"means"},"width":{"value":0.9},"x":{"field":"x"}},"id":"2887","type":"VBar"},{"attributes":{},"id":"2875","type":"LinearScale"},{"attributes":{},"id":"2878","type":"CategoricalTicker"},{"attributes":{},"id":"2965","type":"BasicTickFormatter"},{"attributes":{},"id":"2966","type":"AllLabels"},{"attributes":{},"id":"2968","type":"CategoricalTickFormatter"},{"attributes":{},"id":"2969","type":"AllLabels"},{"attributes":{"axis":{"id":"2877"},"coordinates":null,"grid_line_color":null,"group":null,"ticker":null},"id":"2879","type":"Grid"},{"attributes":{},"id":"2970","type":"UnionRenderers"},{"attributes":{"end":2,"factors":["2015","2016","2017","2018","2019","2020"],"palette":["#3CE7D7","#3CCAE7","#3CA9E7","#7674F6","#A48ED9","#6A2FFC"],"start":1},"id":"2885","type":"CategoricalColorMapper"},{"attributes":{"start":0},"id":"2871","type":"DataRange1d"},{"attributes":{"factors":[["BRONX","2015"],["BRONX","2016"],["BRONX","2017"],["BRONX","2018"],["BRONX","2019"],["BRONX","2020"],["BROOKLYN","2015"],["BROOKLYN","2016"],["BROOKLYN","2017"],["BROOKLYN","2018"],["BROOKLYN","2019"],["BROOKLYN","2020"],["MANHATTAN","2015"],["MANHATTAN","2016"],["MANHATTAN","2017"],["MANHATTAN","2018"],["MANHATTAN","2019"],["MANHATTAN","2020"],["QUEENS","2015"],["QUEENS","2016"],["QUEENS","2017"],["QUEENS","2018"],["QUEENS","2019"],["QUEENS","2020"],["STATEN ISLAND","2015"],["STATEN ISLAND","2016"],["STATEN ISLAND","2017"],["STATEN ISLAND","2018"],["STATEN ISLAND","2019"],["STATEN ISLAND","2020"]],"range_padding":0.1},"id":"2866","type":"FactorRange"},{"attributes":{"axis_label":"Median Indoor Water Use (kgal)","axis_label_text_font_size":"11pt","axis_label_text_font_style":"normal","coordinates":null,"formatter":{"id":"2965"},"group":null,"major_label_policy":{"id":"2966"},"ticker":{"id":"2881"}},"id":"2880","type":"LinearAxis"},{"attributes":{},"id":"2971","type":"Selection"},{"attributes":{"callback":null,"tooltips":[["Median Water Consumption (kgal)","@means"],["Mean Water Consumption (kgal)","@medians"],["Standard Deviation","@stdevs"]]},"id":"2892","type":"HoverTool"},{"attributes":{"tools":[{"id":"2892"}]},"id":"2884","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"x","transform":{"id":"2885"}},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"means"},"width":{"value":0.9},"x":{"field":"x"}},"id":"2888","type":"VBar"},{"attributes":{"coordinates":null,"formatter":{"id":"2968"},"group":null,"major_label_orientation":1,"major_label_policy":{"id":"2969"},"ticker":{"id":"2878"}},"id":"2877","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"2880"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"2883","type":"Grid"},{"attributes":{"data":{"means":[7002.470273224044,7049.196941896024,6178.63692498964,6090.238764510779,5865.077352150537,6171.904002808989,5270.679825412221,5229.015371621622,4438.881655071403,4092.8498092412037,4127.68420277041,4242.263124803521,5761.4264724509185,5743.477433877321,4699.399325315342,4594.733658360419,4543.773075977379,4441.654422450514,6374.511779769527,6596.095060373216,5919.9611705475145,4999.828453947369,5312.57968828557,5690.134240837697,4080.631428571429,4604.225581395349,5909.321794871795,5941.413333333333,5725.197802197802,6142.590697674419],"medians":[6461.0,6281.4,5302.9,5425.65,5109.7,5360.55,4409.0,4472.6,3635.5,3291.4,3242.8,3361.0,4213.8,4296.9,3377.5,3350.7,3285.9,3169.5,5417.4,5444.9,4789.8,3854.35,4036.5,4359.3,3031.9,3762.0,5235.75,4609.4,4370.5,4590.950000000001],"stdevs":[4512.989716701565,4608.509048529515,3900.937671020146,3796.4272083059655,3775.6567021853994,3972.810066080442,3817.262986659519,3694.848363585483,3358.258604238471,3236.650919261159,3450.7345575204977,3514.3167322716818,4664.019322095268,4671.4460451491195,4184.8546718772095,4231.851716979528,4052.349833266017,3951.734005614208,4269.237612761798,4655.690295148314,4352.567386830228,4206.867519698307,4427.495102348235,4729.294784351822,2776.3461592077992,2995.351540072672,3452.3981640339957,5182.297608212992,4618.069540498932,5368.790810220905],"x":[["BRONX","2015"],["BRONX","2016"],["BRONX","2017"],["BRONX","2018"],["BRONX","2019"],["BRONX","2020"],["BROOKLYN","2015"],["BROOKLYN","2016"],["BROOKLYN","2017"],["BROOKLYN","2018"],["BROOKLYN","2019"],["BROOKLYN","2020"],["MANHATTAN","2015"],["MANHATTAN","2016"],["MANHATTAN","2017"],["MANHATTAN","2018"],["MANHATTAN","2019"],["MANHATTAN","2020"],["QUEENS","2015"],["QUEENS","2016"],["QUEENS","2017"],["QUEENS","2018"],["QUEENS","2019"],["QUEENS","2020"],["STATEN ISLAND","2015"],["STATEN ISLAND","2016"],["STATEN ISLAND","2017"],["STATEN ISLAND","2018"],["STATEN ISLAND","2019"],["STATEN ISLAND","2020"]]},"selected":{"id":"2971"},"selection_policy":{"id":"2970"}},"id":"2865","type":"ColumnDataSource"},{"attributes":{"coordinates":null,"group":null,"text":"Median Water Consumption in each Borough per Year (Multifamily Housing)","text_font_size":"12pt"},"id":"2868","type":"Title"},{"attributes":{},"id":"2881","type":"BasicTicker"},{"attributes":{"coordinates":null,"data_source":{"id":"2865"},"glyph":{"id":"2887"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"2889"},"nonselection_glyph":{"id":"2888"},"view":{"id":"2891"}},"id":"2890","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"x","transform":{"id":"2885"}},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"top":{"field":"means"},"width":{"value":0.9},"x":{"field":"x"}},"id":"2889","type":"VBar"},{"attributes":{"source":{"id":"2865"}},"id":"2891","type":"CDSView"},{"attributes":{},"id":"2873","type":"CategoricalScale"}],"root_ids":["2867"]},"title":"Bokeh Application","version":"2.4.2"}}
